@@ -1,3 +1,5 @@
+import './framer/styles.css'
+
 import { Suspense, lazy, useEffect, useState } from 'react';
 
 // Импортируем компоненты верхней части страницы напрямую
