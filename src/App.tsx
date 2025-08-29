@@ -1,4 +1,4 @@
-import './framer/styles.css'
+// import './framer/styles.css'
 
 import NavFramerComponent from './framer/navigation/nav'
 import HeroFramerComponent from './framer/hero'
