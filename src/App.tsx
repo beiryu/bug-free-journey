@@ -12,6 +12,9 @@ const LazyFeaturesFramerComponent = lazy(() => import('./framer/features'));
 const LazyComparisonFramerComponent = lazy(() => import('./framer/comparison'));
 const LazyComparisonTagsFramerComponent = lazy(() => import('./framer/comparison-tags'));
 const LazyOnboardingFramerComponent = lazy(() => import('./framer/onboarding'));
+const LazyCaseStudiesFramerComponent = lazy(() => import('./framer/case-studies'));
+const LazyTeamFramerComponent = lazy(() => import('./framer/section/team'));
+const LazyFooterFramerComponent = lazy(() => import('./framer/navigation/footer'));
 
 // Создаем компоненты-обертки, которые будут рендерить .Responsive вариант
 const PartnersFramerComponent = {
@@ -59,6 +62,36 @@ const OnboardingFramerComponent = {
     return (
       <Suspense fallback={<div className="w-full h-96 bg-gray-100 animate-pulse rounded-xl" />}>
         <LazyOnboardingFramerComponent />
+      </Suspense>
+    );
+  }
+};
+
+const CaseStudiesFramerComponent = {
+  Responsive: function ResponsiveCaseStudies() {
+    return (
+      <Suspense fallback={<div className="w-full h-96 bg-gray-100 animate-pulse rounded-xl" />}>
+        <LazyCaseStudiesFramerComponent />
+      </Suspense>
+    );
+  }
+};
+
+const TeamFramerComponent = {
+  Responsive: function ResponsiveTeam() {
+    return (
+      <Suspense fallback={<div className="w-full h-96 bg-gray-100 animate-pulse rounded-xl" />}>
+        <LazyTeamFramerComponent />
+      </Suspense>
+    );
+  }
+};
+
+const FooterFramerComponent = {
+  Responsive: function ResponsiveFooter() {
+    return (
+      <Suspense fallback={<div className="w-full h-96 bg-gray-100 animate-pulse rounded-xl" />}>
+        <LazyFooterFramerComponent />
       </Suspense>
     );
   }
@@ -149,6 +182,24 @@ export default function App() {
     <LazyLoadComponent id="onboarding-section" height="h-96">
       <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
         <OnboardingFramerComponent.Responsive/>
+      </div>
+    </LazyLoadComponent>
+
+    <LazyLoadComponent id="case-studies-section" height="h-96">
+      <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
+        <CaseStudiesFramerComponent.Responsive/>
+      </div>
+    </LazyLoadComponent>
+
+    <LazyLoadComponent id="case-studies-section" height="h-96">
+      <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
+        <TeamFramerComponent.Responsive/>
+      </div>
+    </LazyLoadComponent>
+
+    <LazyLoadComponent id="case-studies-section" height="h-96">
+      <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
+        <FooterFramerComponent.Responsive/>
       </div>
     </LazyLoadComponent>
     </>
