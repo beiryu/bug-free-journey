@@ -7086,6 +7086,7 @@ var css11 = [
 	"@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
 	".framer-HAXsS.framer-1ahqkwq, .framer-HAXsS .framer-1ahqkwq { display: block; }",
 	".framer-HAXsS.framer-8eul80 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: flex-start; max-width: 1280px; overflow: visible; padding: 0px; position: relative; width: 1120px; }",
+	"@media (max-width: 809px) { .framer-HAXsS.framer-8eul80 { width: 100%; padding: 0 20px; gap: 40px; } }",
 	".framer-HAXsS .framer-t3hbfe { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; max-width: 800px; overflow: visible; padding: 0px; position: relative; width: 100%; }",
 	".framer-HAXsS .framer-1x5tetk-container { flex: none; height: auto; position: relative; width: auto; }",
 	".framer-HAXsS .framer-7r294r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 4px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }",
@@ -7097,7 +7098,9 @@ var css11 = [
 	".framer-HAXsS .framer-1l4unqe-container { flex: none; height: 48px; position: relative; width: 48px; }",
 	".framer-HAXsS .framer-bs5qbl { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }",
 	".framer-HAXsS .framer-17ea2lc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }",
+	"@media (max-width: 809px) { .framer-HAXsS .framer-17ea2lc { flex-direction: column; gap: 30px; } }",
 	".framer-HAXsS .framer-dfpjpm-container, .framer-HAXsS .framer-9yn83b-container, .framer-HAXsS .framer-1xypx5r-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }",
+	"@media (max-width: 809px) { .framer-HAXsS .framer-dfpjpm-container, .framer-HAXsS .framer-9yn83b-container, .framer-HAXsS .framer-1xypx5r-container { width: 100%; flex: none; } }",
 	...css2,
 	...css,
 ];

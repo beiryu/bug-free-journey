@@ -21061,14 +21061,17 @@ var Component = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
 	const sharedStyleClassNames = [className];
 	const scopingClassNames = cx(serializationHash, ...sharedStyleClassNames);
 	const isDisplayed = () => {
+		console.log(baseVariant, 'test hero')
 		if (["gkuLkMKSY", "EhSjzdjq4"].includes(baseVariant)) return false;
 		return true;
 	};
 	const isDisplayed1 = () => {
+    console.log(baseVariant, 'test hero 1')
 		if (baseVariant === "gkuLkMKSY") return true;
 		return false;
 	};
 	const isDisplayed2 = () => {
+    console.log(baseVariant, 'test hero 2')
 		if (baseVariant === "EhSjzdjq4") return true;
 		return false;
 	};
@@ -22415,6 +22418,9 @@ var Component4 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
 	const sharedStyleClassNames = [];
 	const scopingClassNames = cx4(serializationHash3, ...sharedStyleClassNames);
 	const router = useRouter();
+  console.log(variants)
+  console.log(baseVariant)
+  console.log(variant)
 	return (
 		<LayoutGroup3 id={layoutId ?? defaultLayoutId}>
 			<Variants3 animate={variants} initial={false}>
@@ -22458,7 +22464,7 @@ var Component4 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
 										maxWidth: "100%",
 										width: "100%",
 									},
-									variant: "DeEDLvwB3",
+									variant: "gkuLkMKSY",
 									width: "100%",
 								})}
 							</SmartComponentScopedContainer2>

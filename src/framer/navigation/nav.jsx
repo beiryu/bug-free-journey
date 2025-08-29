@@ -934,10 +934,12 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
 	const sharedStyleClassNames = [];
 	const scopingClassNames = cx3(serializationHash2, ...sharedStyleClassNames);
 	const isDisplayed = () => {
+		console.log(baseVariant, 'test nav 2')
 		if (["NmVNSQwJ2", "V_oKbLkCy"].includes(baseVariant)) return true;
 		return false;
 	};
 	const isDisplayed1 = () => {
+		console.log(baseVariant, 'test nav 1')
 		if (baseVariant === "NmVNSQwJ2") return false;
 		return true;
 	};

@@ -1,3 +1,5 @@
+'use client'
+
 import './framer/styles.css'
 
 import { Suspense, lazy, useEffect, useState } from 'react';
@@ -5,6 +7,7 @@ import { Suspense, lazy, useEffect, useState } from 'react';
 // Импортируем компоненты верхней части страницы напрямую
 import NavFramerComponent from './framer/navigation/nav'
 import HeroFramerComponent from './framer/hero'
+import MainFramerComponent from './framer/main'
 
 // Создаем обертки для компонентов с ленивой загрузкой
 const LazyPartnersFramerComponent = lazy(() => import('./framer/section/partners'));
@@ -148,14 +151,17 @@ export default function App() {
     <>
     {/* Компоненты верхней части страницы загружаются сразу */}
     <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
+      <MainFramerComponent.Responsive/>
+    </div> 
+    {/* <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
       <NavFramerComponent.Responsive/>
     </div> 
     <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
       <HeroFramerComponent.Responsive/>
-    </div> 
+    </div>  */}
     
     {/* Компоненты нижней части страницы загружаются лениво */}
-    <LazyLoadComponent id="partners-section" height="h-80">
+    {/* <LazyLoadComponent id="partners-section" height="h-80">
       <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
         <PartnersFramerComponent.Responsive/>
       </div>
@@ -201,7 +207,7 @@ export default function App() {
       <div className='flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]'>
         <FooterFramerComponent.Responsive/>
       </div>
-    </LazyLoadComponent>
+    </LazyLoadComponent> */}
     </>
   );
 }
