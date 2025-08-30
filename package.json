@@ -9,7 +9,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "framer": "unframer 82805ebdf0b5ff0d --outDir src/framer"
+    "framer": "unframer 82805ebdf0b5ff0d --outDir src/framer",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
+    "lint:check": "eslint \"src/**/*.{ts,tsx}\"",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@motionone/dom": "^10.18.0",
@@ -20,9 +25,20 @@
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
     "@vitejs/plugin-react": "latest",
     "autoprefixer": "^10.4.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
     "postcss": "^8.4.0",
+    "prettier": "^3.6.2",
     "tailwindcss": "^3.4.0",
     "typescript": "latest",
     "vite": "latest"
