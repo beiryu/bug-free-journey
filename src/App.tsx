@@ -1,14 +1,12 @@
 'use client';
 
 import './framer/styles.css';
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useEffect, useState, useRef } from 'react';
 
-const NavFramerComponent = lazy(() =>
-  import('./framer').then(module => ({ default: module.NavFramerComponent }))
-);
-const HeroFramerComponent = lazy(() =>
-  import('./framer').then(module => ({ default: module.HeroFramerComponent }))
-);
+// Импортируем Nav и Hero напрямую, без ленивой загрузки
+import { NavFramerComponent, HeroFramerComponent } from './framer';
+
+// Ленивая загрузка для остальных компонентов
 const PartnersFramerComponent = lazy(() =>
   import('./framer').then(module => ({
     default: module.PartnersFramerComponent,
@@ -57,74 +55,149 @@ const FooterFramerComponent = lazy(() =>
   import('./framer').then(module => ({ default: module.FooterFramerComponent }))
 );
 
+// Компонент для ленивой загрузки по скроллу
+interface LazyLoadProps {
+  children: React.ReactNode;
+  placeholder: React.ReactNode;
+}
+
+function LazyLoad({ children, placeholder }: LazyLoadProps) {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // Когда элемент становится видимым, устанавливаем флаг
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          // Отключаем наблюдение после первой загрузки
+          observer.disconnect();
+        }
+      },
+      {
+        // Загружаем компонент, когда он находится на расстоянии 300px от видимой области
+        rootMargin: '300px',
+      }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
+
+  return (
+    <div ref={ref}>
+      {isVisible ? (
+        <Suspense fallback={placeholder}>{children}</Suspense>
+      ) : (
+        placeholder
+      )}
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <div className="flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]">
-      <Suspense
-        fallback={<div className="w-full h-16 bg-gray-200 animate-pulse"></div>}
-      >
-        <NavFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-96 bg-gray-200 animate-pulse"></div>}
-      >
-        <HeroFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-32 bg-gray-200 animate-pulse"></div>}
+      {/* Nav и Hero загружаются сразу без ленивой загрузки */}
+      <NavFramerComponent />
+      <HeroFramerComponent />
+
+      {/* Остальные компоненты загружаются только при скролле */}
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-32 bg-gray-200 animate-pulse"></div>
+        }
       >
         <PartnersFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <FeaturesFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <BenefitsFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <AppFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <OnboardingFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <CaseStudiesFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <CalculatorRoiFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <PricingFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <TeamFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+        }
       >
         <FaqFramerComponent />
-      </Suspense>
-      <Suspense
-        fallback={<div className="w-full h-32 bg-gray-200 animate-pulse"></div>}
+      </LazyLoad>
+
+      <LazyLoad
+        placeholder={
+          <div className="w-full h-32 bg-gray-200 animate-pulse"></div>
+        }
       >
         <FooterFramerComponent />
-      </Suspense>
+      </LazyLoad>
     </div>
   );
 }
