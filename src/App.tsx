@@ -1,7 +1,7 @@
 'use client';
 
 import './framer/styles.css';
-import { lazy, Suspense, useEffect, useState, useRef } from 'react';
+import { lazy, Suspense, useEffect, useState, useRef, createRef } from 'react';
 
 // Импортируем Nav и Hero напрямую, без ленивой загрузки
 import Nav from './components/Nav';
@@ -28,9 +28,10 @@ const FooterFramerComponent = lazy(() => import('./components/Footer'));
 interface LazyLoadProps {
   children: React.ReactNode;
   placeholder: React.ReactNode;
+  id?: string;
 }
 
-function LazyLoad({ children, placeholder }: LazyLoadProps) {
+function LazyLoad({ children, placeholder, id }: LazyLoadProps) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -62,7 +63,7 @@ function LazyLoad({ children, placeholder }: LazyLoadProps) {
   }, []);
 
   return (
-    <div ref={ref} className="w-full">
+    <div ref={ref} className="w-full" id={id}>
       {isVisible ? (
         <Suspense fallback={placeholder}>{children}</Suspense>
       ) : (
@@ -73,11 +74,44 @@ function LazyLoad({ children, placeholder }: LazyLoadProps) {
 }
 
 export default function App() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [shouldShowScrollSection, setShouldShowScrollSection] = useState(false);
+  const navScrollSectionRef = createRef<HTMLDivElement>();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const newIsScrolled = scrollPosition > 40;
+      setIsScrolled(newIsScrolled);
+
+      if (newIsScrolled) {
+        setShouldShowScrollSection(true);
+      } else if (scrollPosition <= 0) {
+        setShouldShowScrollSection(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    handleScroll();
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className="flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]">
-      {/* Nav и Hero загружаются сразу без ленивой загрузки */}
-      <Nav />
-      <Hero />
+      <div className={`w-full fixed top-0 z-50`}>
+        <Nav
+          scrollSection={
+            shouldShowScrollSection ? navScrollSectionRef : undefined
+          }
+        />
+      </div>
+      <div ref={navScrollSectionRef}>
+        <Hero />
+      </div>
 
       {/* Остальные компоненты загружаются только при скролле */}
       <LazyLoad
@@ -92,6 +126,7 @@ export default function App() {
         placeholder={
           <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
+        id="features"
       >
         <FeaturesFramerComponent />
       </LazyLoad>
@@ -116,6 +151,7 @@ export default function App() {
         placeholder={
           <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
+        id="onboarding"
       >
         <OnboardingFramerComponent />
       </LazyLoad>
@@ -132,6 +168,7 @@ export default function App() {
         placeholder={
           <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
+        id="calculator"
       >
         <CalculatorRoiFramerComponent />
       </LazyLoad>
@@ -156,6 +193,7 @@ export default function App() {
         placeholder={
           <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
+        id="faq"
       >
         <FaqFramerComponent />
       </LazyLoad>

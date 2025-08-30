@@ -1,4 +1,16 @@
-import { withDefaults } from '../framer';
 import NavFramer from '../framer/navigation/nav';
+import { defaultVariants } from '../framer';
 
-export default withDefaults(NavFramer, '!w-full !py-5 bg-[#f0f0f0]');
+const Nav = ({ scrollSection, ...props }) => {
+  return (
+    <NavFramer.Responsive
+      variants={defaultVariants}
+      className="!w-full !py-5"
+      scrollSection={scrollSection}
+      key={scrollSection ? 'Desktop - Scroll' : 'Desktop'}
+      {...props}
+    />
+  );
+};
+
+export default Nav;

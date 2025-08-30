@@ -1020,7 +1020,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                 borderTopLeftRadius: 16,
                 borderTopRightRadius: 16,
                 boxShadow:
-                  '0px 30px 40px 0px rgba(0, 0, 0, 0.03), 0px 1.1511205434799194px 2.302241086959839px 0px rgba(11, 32, 103, 0.14), 0px 8.057844161987305px 8.057844161987305px 0px rgba(11, 32, 103, 0.05)',
+                  '0px 5px 5px 0px rgba(0, 0, 0, 0.03), 0px 1.1511205434799194px 2.302241086959839px 0px rgba(11, 32, 103, 0.14), 0px 8.057844161987305px 8.057844161987305px 0px rgba(11, 32, 103, 0.05)',
               },
               NmVNSQwJ2: {
                 backgroundColor: 'rgb(255, 255, 255)',
@@ -1029,7 +1029,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                 borderTopLeftRadius: 16,
                 borderTopRightRadius: 16,
                 boxShadow:
-                  '0px 30px 40px 0px rgba(0, 0, 0, 0.03), 0px 1.1511205434799194px 2.302241086959839px 0px rgba(11, 32, 103, 0.14), 0px 8.057844161987305px 8.057844161987305px 0px rgba(11, 32, 103, 0.05)',
+                  '0px 5px 5px 0px rgba(0, 0, 0, 0.03), 0px 1.1511205434799194px 2.302241086959839px 0px rgba(11, 32, 103, 0.14), 0px 8.057844161987305px 8.057844161987305px 0px rgba(11, 32, 103, 0.05)',
               },
               V_oKbLkCy: {
                 backgroundColor: 'rgb(255, 255, 255)',
@@ -1038,7 +1038,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                 borderTopLeftRadius: 16,
                 borderTopRightRadius: 16,
                 boxShadow:
-                  '0px 30px 40px 0px rgba(0, 0, 0, 0.03), 0px 1.1511205434799194px 2.302241086959839px 0px rgba(11, 32, 103, 0.14), 0px 8.057844161987305px 8.057844161987305px 0px rgba(11, 32, 103, 0.05)',
+                  '0px 5px 5px 0px rgba(0, 0, 0, 0.03), 0px 1.1511205434799194px 2.302241086959839px 0px rgba(11, 32, 103, 0.14), 0px 8.057844161987305px 8.057844161987305px 0px rgba(11, 32, 103, 0.05)',
               },
             }}
             {...addPropertyOverrides2(
@@ -1206,24 +1206,15 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   <ResolveLinks
                     links={[
                       {
-                        href: {
-                          hash: ':SRA2amHOf',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#features',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':SRA2amHOf',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#features',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':SRA2amHOf',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#features',
                         implicitPathVariables: void 0,
                       },
                     ]}
@@ -1309,24 +1300,15 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   <ResolveLinks
                     links={[
                       {
-                        href: {
-                          hash: ':BH251EpqQ',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#onboarding',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':BH251EpqQ',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#onboarding',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':BH251EpqQ',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#onboarding',
                         implicitPathVariables: void 0,
                       },
                     ]}
@@ -1412,24 +1394,15 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   <ResolveLinks
                     links={[
                       {
-                        href: {
-                          hash: ':Xvv9apu6u',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#calculator',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':Xvv9apu6u',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#calculator',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':Xvv9apu6u',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#calculator',
                         implicitPathVariables: void 0,
                       },
                     ]}
@@ -1515,24 +1488,15 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   <ResolveLinks
                     links={[
                       {
-                        href: {
-                          hash: ':Q58B5Xonx',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#faq',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':Q58B5Xonx',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#faq',
                         implicitPathVariables: void 0,
                       },
                       {
-                        href: {
-                          hash: ':Q58B5Xonx',
-                          webPageId: 'augiA20Il',
-                        },
+                        href: '#faq',
                         implicitPathVariables: void 0,
                       },
                     ]}

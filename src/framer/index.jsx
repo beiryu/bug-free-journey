@@ -1,4 +1,4 @@
-const defaultVariants = {
+export const defaultVariants = {
   base: 'Phone',
   md: 'Tablet',
   xl: 'Desktop',
