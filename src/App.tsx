@@ -4,56 +4,25 @@ import './framer/styles.css';
 import { lazy, Suspense, useEffect, useState, useRef } from 'react';
 
 // Импортируем Nav и Hero напрямую, без ленивой загрузки
-import { NavFramerComponent, HeroFramerComponent } from './framer';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
 
 // Ленивая загрузка для остальных компонентов
-const PartnersFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.PartnersFramerComponent,
-  }))
+const PartnersFramerComponent = lazy(() => import('./components/Partners'));
+const FeaturesFramerComponent = lazy(() => import('./components/Features'));
+const BenefitsFramerComponent = lazy(() => import('./components/Benefits'));
+const AppFramerComponent = lazy(() => import('./components/App'));
+const OnboardingFramerComponent = lazy(() => import('./components/Onboarding'));
+const CaseStudiesFramerComponent = lazy(
+  () => import('./components/CaseStudies')
 );
-const FeaturesFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.FeaturesFramerComponent,
-  }))
+const CalculatorRoiFramerComponent = lazy(
+  () => import('./components/CalculatorRoi')
 );
-const BenefitsFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.BenefitsFramerComponent,
-  }))
-);
-const AppFramerComponent = lazy(() =>
-  import('./framer').then(module => ({ default: module.AppFramerComponent }))
-);
-const OnboardingFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.OnboardingFramerComponent,
-  }))
-);
-const CaseStudiesFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.CaseStudiesFramerComponent,
-  }))
-);
-const CalculatorRoiFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.CalculatorRoiFramerComponent,
-  }))
-);
-const PricingFramerComponent = lazy(() =>
-  import('./framer').then(module => ({
-    default: module.PricingFramerComponent,
-  }))
-);
-const TeamFramerComponent = lazy(() =>
-  import('./framer').then(module => ({ default: module.TeamFramerComponent }))
-);
-const FaqFramerComponent = lazy(() =>
-  import('./framer').then(module => ({ default: module.FaqFramerComponent }))
-);
-const FooterFramerComponent = lazy(() =>
-  import('./framer').then(module => ({ default: module.FooterFramerComponent }))
-);
+const PricingFramerComponent = lazy(() => import('./components/Pricing'));
+const TeamFramerComponent = lazy(() => import('./components/Team'));
+const FaqFramerComponent = lazy(() => import('./components/Faq'));
+const FooterFramerComponent = lazy(() => import('./components/Footer'));
 
 // Компонент для ленивой загрузки по скроллу
 interface LazyLoadProps {
@@ -107,8 +76,8 @@ export default function App() {
   return (
     <div className="flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]">
       {/* Nav и Hero загружаются сразу без ленивой загрузки */}
-      <NavFramerComponent />
-      <HeroFramerComponent />
+      <Nav />
+      <Hero />
 
       {/* Остальные компоненты загружаются только при скролле */}
       <LazyLoad
