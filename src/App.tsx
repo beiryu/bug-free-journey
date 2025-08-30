@@ -93,7 +93,7 @@ function LazyLoad({ children, placeholder }: LazyLoadProps) {
   }, []);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className="w-full">
       {isVisible ? (
         <Suspense fallback={placeholder}>{children}</Suspense>
       ) : (
@@ -113,7 +113,7 @@ export default function App() {
       {/* Остальные компоненты загружаются только при скролле */}
       <LazyLoad
         placeholder={
-          <div className="w-full h-32 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-32 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <PartnersFramerComponent />
@@ -121,7 +121,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <FeaturesFramerComponent />
@@ -129,7 +129,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <BenefitsFramerComponent />
@@ -137,7 +137,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <AppFramerComponent />
@@ -145,7 +145,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <OnboardingFramerComponent />
@@ -153,7 +153,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <CaseStudiesFramerComponent />
@@ -161,7 +161,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <CalculatorRoiFramerComponent />
@@ -169,7 +169,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <PricingFramerComponent />
@@ -177,7 +177,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <TeamFramerComponent />
@@ -185,7 +185,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-64 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-64 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <FaqFramerComponent />
@@ -193,7 +193,7 @@ export default function App() {
 
       <LazyLoad
         placeholder={
-          <div className="w-full h-32 bg-gray-200 animate-pulse"></div>
+          <div className="w-full h-32 bg-[#f0f0f0] animate-pulse"></div>
         }
       >
         <FooterFramerComponent />
