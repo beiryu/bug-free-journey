@@ -1,128 +1,130 @@
 'use client';
 
 import './framer/styles.css';
+import { lazy, Suspense } from 'react';
 
-import NavFramerComponent from './framer/navigation/nav';
-import HeroFramerComponent from './framer/hero';
-import PartnersFramerComponent from './framer/partners';
-import FeaturesFramerComponent from './framer/features';
-import BenefitsFramerComponent from './framer/benefits';
-import AppFramerComponent from './framer/app';
-import OnboardingFramerComponent from './framer/onboarding';
-import CaseStudiesFramerComponent from './framer/case-studies';
-import CalculatorRoiFramerComponent from './framer/calculator-roi';
-import PricingFramerComponent from './framer/pricing';
-import TeamFramerComponent from './framer/team';
-import FaqFramerComponent from './framer/faq';
-import FooterFramerComponent from './framer/navigation/footer';
+const NavFramerComponent = lazy(() =>
+  import('./framer').then(module => ({ default: module.NavFramerComponent }))
+);
+const HeroFramerComponent = lazy(() =>
+  import('./framer').then(module => ({ default: module.HeroFramerComponent }))
+);
+const PartnersFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.PartnersFramerComponent,
+  }))
+);
+const FeaturesFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.FeaturesFramerComponent,
+  }))
+);
+const BenefitsFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.BenefitsFramerComponent,
+  }))
+);
+const AppFramerComponent = lazy(() =>
+  import('./framer').then(module => ({ default: module.AppFramerComponent }))
+);
+const OnboardingFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.OnboardingFramerComponent,
+  }))
+);
+const CaseStudiesFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.CaseStudiesFramerComponent,
+  }))
+);
+const CalculatorRoiFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.CalculatorRoiFramerComponent,
+  }))
+);
+const PricingFramerComponent = lazy(() =>
+  import('./framer').then(module => ({
+    default: module.PricingFramerComponent,
+  }))
+);
+const TeamFramerComponent = lazy(() =>
+  import('./framer').then(module => ({ default: module.TeamFramerComponent }))
+);
+const FaqFramerComponent = lazy(() =>
+  import('./framer').then(module => ({ default: module.FaqFramerComponent }))
+);
+const FooterFramerComponent = lazy(() =>
+  import('./framer').then(module => ({ default: module.FooterFramerComponent }))
+);
 
 export default function App() {
   return (
     <div className="flex flex-col items-center gap-3 bg-[rgb(240,_240,_240)]">
-      <NavFramerComponent.Responsive
-        className="!w-full !py-5 bg-[#f0f0f0]"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <HeroFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <PartnersFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <FeaturesFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <BenefitsFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <AppFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <OnboardingFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <CaseStudiesFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <CalculatorRoiFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <PricingFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <TeamFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <FaqFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
-      <FooterFramerComponent.Responsive
-        className="!w-full"
-        variants={{
-          base: 'Phone',
-          md: 'Tablet',
-          xl: 'Desktop',
-        }}
-      />
+      <Suspense
+        fallback={<div className="w-full h-16 bg-gray-200 animate-pulse"></div>}
+      >
+        <NavFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-96 bg-gray-200 animate-pulse"></div>}
+      >
+        <HeroFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-32 bg-gray-200 animate-pulse"></div>}
+      >
+        <PartnersFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <FeaturesFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <BenefitsFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <AppFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <OnboardingFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <CaseStudiesFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <CalculatorRoiFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <PricingFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <TeamFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-64 bg-gray-200 animate-pulse"></div>}
+      >
+        <FaqFramerComponent />
+      </Suspense>
+      <Suspense
+        fallback={<div className="w-full h-32 bg-gray-200 animate-pulse"></div>}
+      >
+        <FooterFramerComponent />
+      </Suspense>
     </div>
   );
 }
