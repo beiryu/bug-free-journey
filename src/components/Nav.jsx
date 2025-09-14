@@ -1,7 +1,8 @@
 import NavFramer from '../framer/navigation/nav';
 import { defaultVariants } from '../framer';
+import { memo } from 'react';
 
-const Nav = ({ scrollSection, ...props }) => {
+const Nav = memo(({ scrollSection, ...props }) => {
   return (
     <NavFramer.Responsive
       variants={defaultVariants}
@@ -11,6 +12,6 @@ const Nav = ({ scrollSection, ...props }) => {
       {...props}
     />
   );
-};
+});
 
 export default Nav;

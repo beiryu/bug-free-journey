@@ -1,13 +1,12 @@
 'use client';
 
 import './framer/styles.css';
+import './framer/navbar-animation.css';
 import { lazy, Suspense, useEffect, useState, useRef, createRef } from 'react';
 
-// Импортируем Nav и Hero напрямую, без ленивой загрузки
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 
-// Ленивая загрузка для остальных компонентов
 const PartnersFramerComponent = lazy(() => import('./components/Partners'));
 const FeaturesFramerComponent = lazy(() => import('./components/Features'));
 const BenefitsFramerComponent = lazy(() => import('./components/Benefits'));
@@ -24,7 +23,6 @@ const TeamFramerComponent = lazy(() => import('./components/Team'));
 const FaqFramerComponent = lazy(() => import('./components/Faq'));
 const FooterFramerComponent = lazy(() => import('./components/Footer'));
 
-// Компонент для ленивой загрузки по скроллу
 interface LazyLoadProps {
   children: React.ReactNode;
   placeholder: React.ReactNode;
@@ -38,15 +36,12 @@ function LazyLoad({ children, placeholder, id }: LazyLoadProps) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // Когда элемент становится видимым, устанавливаем флаг
         if (entry.isIntersecting) {
           setIsVisible(true);
-          // Отключаем наблюдение после первой загрузки
           observer.disconnect();
         }
       },
       {
-        // Загружаем компонент, когда он находится на расстоянии 300px от видимой области
         rootMargin: '300px',
       }
     );
@@ -81,17 +76,12 @@ export default function App() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const newIsScrolled = scrollPosition > 40;
+      const newIsScrolled = scrollPosition > 100;
       setIsScrolled(newIsScrolled);
-
-      if (newIsScrolled) {
-        setShouldShowScrollSection(true);
-      } else if (scrollPosition <= 0) {
-        setShouldShowScrollSection(false);
-      }
+      setShouldShowScrollSection(newIsScrolled);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
 
     handleScroll();
 

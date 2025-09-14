@@ -1498,12 +1498,33 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                             </React2.Fragment>
                           ),
                         },
+                        Sjey0przw: {
+                          children: (
+                            <React2.Fragment>
+                              <motion2.p
+                                style={{
+                                  '--font-selector': 'SW50ZXItQm9sZA==',
+                                  '--framer-font-family':
+                                    '"Inter", "Inter Placeholder", sans-serif',
+                                  '--framer-font-size': '90px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.06em',
+                                  '--framer-line-height': '1em',
+                                  '--framer-text-color':
+                                    'var(--extracted-r6o4lv, var(--token-8131141a-ffe7-4934-93a9-c74e05c4423c, rgb(255, 255, 255)))',
+                                }}
+                              >
+                                {'01'}
+                              </motion2.p>
+                            </React2.Fragment>
+                          ),
+                        },
                       },
                       baseVariant,
                       gestureVariant
                     )}
                   >
-                    <React2.Fragment>
+                    {/* <React2.Fragment>
                       <motion2.p
                         style={{
                           '--font-selector': 'SW50ZXItQm9sZA==',
@@ -1519,7 +1540,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                       >
                         {'01'}
                       </motion2.p>
-                    </React2.Fragment>
+                    </React2.Fragment> */}
                   </RichText2>
                 </motion2.div>
               )}
@@ -1781,12 +1802,34 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                           </React2.Fragment>
                         ),
                       },
+                      Sjey0przw: {
+                        children: (
+                          <React2.Fragment>
+                            <motion2.p
+                              style={{
+                                '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                '--framer-font-family':
+                                  '"Inter", "Inter Placeholder", sans-serif',
+                                '--framer-font-size': '14px',
+                                '--framer-font-weight': '600',
+                                '--framer-letter-spacing': '-0.02em',
+                                '--framer-line-height': '150%',
+                                '--framer-text-color':
+                                  'var(--extracted-r6o4lv, var(--token-8131141a-ffe7-4934-93a9-c74e05c4423c, rgb(255, 255, 255)))',
+                                '--framer-text-transform': 'uppercase',
+                              }}
+                            >
+                              {'Step 1'}
+                            </motion2.p>
+                          </React2.Fragment>
+                        ),
+                      },
                     },
                     baseVariant,
                     gestureVariant
                   )}
                 >
-                  <React2.Fragment>
+                  {/* <React2.Fragment>
                     <motion2.p
                       style={{
                         '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
@@ -1803,7 +1846,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                     >
                       {'Step 1'}
                     </motion2.p>
-                  </React2.Fragment>
+                  </React2.Fragment> */}
                 </RichText2>
               </motion2.div>
               <RichText2
@@ -1993,12 +2036,31 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                         </React2.Fragment>
                       ),
                     },
+                    Sjey0przw: {
+                      children: (
+                        <React2.Fragment>
+                          <motion2.p
+                            className={'framer-styles-preset-c1cxty'}
+                            data-styles-preset={'DqPpqUUr0'}
+                            style={{
+                              '--framer-text-alignment': 'left',
+                              '--framer-text-color':
+                                'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                            }}
+                          >
+                            <motion2.strong>
+                              {'Connect your business'}
+                            </motion2.strong>
+                          </motion2.p>
+                        </React2.Fragment>
+                      ),
+                    },
                   },
                   baseVariant,
                   gestureVariant
                 )}
               >
-                <React2.Fragment>
+                {/* <React2.Fragment>
                   <motion2.p
                     className={'framer-styles-preset-c1cxty'}
                     data-styles-preset={'DqPpqUUr0'}
@@ -2010,7 +2072,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   >
                     <motion2.strong>{'Connect your business'}</motion2.strong>
                   </motion2.p>
-                </React2.Fragment>
+                </React2.Fragment> */}
               </RichText2>
               <RichText2
                 __fromCanvasComponent={true}
@@ -2154,12 +2216,26 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                         </React2.Fragment>
                       ),
                     },
+                    Sjey0przw: {
+                      children: (
+                        <React2.Fragment>
+                          <motion2.p
+                            className={'framer-styles-preset-13hsas3'}
+                            data-styles-preset={'pwS_W0qLQ'}
+                          >
+                            {
+                              "Connect payment systems, set up compliance, & sync your store. We manage the full technical setup & guide you through approvals if you're not processing payments."
+                            }
+                          </motion2.p>
+                        </React2.Fragment>
+                      ),
+                    },
                   },
                   baseVariant,
                   gestureVariant
                 )}
               >
-                <React2.Fragment>
+                {/* <React2.Fragment>
                   <motion2.p
                     className={'framer-styles-preset-13hsas3'}
                     data-styles-preset={'pwS_W0qLQ'}
@@ -2168,7 +2244,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                       'Connect payment systems, set up compliance, & sync your store. We manage the full technical setup & guide you through approvals if you\u2019re not processing payments.'
                     }
                   </motion2.p>
-                </React2.Fragment>
+                </React2.Fragment> */}
               </RichText2>
             </motion2.div>
             <Image

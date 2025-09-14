@@ -1451,7 +1451,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                         },
                       },
                     ]}
-                    __framer__transformTrigger={'onScrollTarget'}
+                    __framer__transformTrigger={'onInView'}
                     __framer__transformViewportThreshold={0.5}
                     __perspectiveFX={false}
                     __smartComponentFX={true}
@@ -1665,7 +1665,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                         },
                       },
                     ]}
-                    __framer__transformTrigger={'onScrollTarget'}
+                    __framer__transformTrigger={'onInView'}
                     __framer__transformViewportThreshold={0.5}
                     __perspectiveFX={false}
                     __smartComponentFX={true}
@@ -1882,7 +1882,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                         },
                       },
                     ]}
-                    __framer__transformTrigger={'onScrollTarget'}
+                    __framer__transformTrigger={'onInView'}
                     __framer__transformViewportThreshold={0.5}
                     __perspectiveFX={false}
                     __smartComponentFX={true}
@@ -2099,7 +2099,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                         },
                       },
                     ]}
-                    __framer__transformTrigger={'onScrollTarget'}
+                    __framer__transformTrigger={'onInView'}
                     __framer__transformViewportThreshold={0.5}
                     __perspectiveFX={false}
                     __smartComponentFX={true}
@@ -3777,7 +3777,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                           },
                         },
                       ]}
-                      __framer__transformTrigger={'onScrollTarget'}
+                      __framer__transformTrigger={'onInView'}
                       __framer__transformViewportThreshold={0.5}
                       __perspectiveFX={false}
                       __smartComponentFX={true}
