@@ -1438,12 +1438,35 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                             </React3.Fragment>
                           ),
                         },
+                        ayRhSyGEU: {
+                          children: (
+                            <React3.Fragment>
+                              <motion3.h3
+                                style={{
+                                  '--font-selector':
+                                    'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                  '--framer-font-family':
+                                    '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                  '--framer-font-size': '48px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.04em',
+                                  '--framer-line-height': '125%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                }}
+                              >
+                                {'See The Real'}
+                              </motion3.h3>
+                            </React3.Fragment>
+                          ),
+                        },
                       },
                       baseVariant,
                       gestureVariant
                     )}
                   >
-                    <React3.Fragment>
+                    {/* <React3.Fragment>
                       <motion3.h3
                         style={{
                           '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
@@ -1460,7 +1483,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                       >
                         {'See The Real'}
                       </motion3.h3>
-                    </React3.Fragment>
+                    </React3.Fragment> */}
                   </RichText2>
                   <motion3.div
                     className={'framer-xo0tkd'}
@@ -1584,12 +1607,43 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                               </React3.Fragment>
                             ),
                           },
+                          ayRhSyGEU: {
+                            children: (
+                              <React3.Fragment>
+                                <motion3.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '48px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion3.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Results'}
+                                  </motion3.span>
+                                </motion3.h3>
+                              </React3.Fragment>
+                            ),
+                          },
                         },
                         baseVariant,
                         gestureVariant
                       )}
                     >
-                      <React3.Fragment>
+                      {/* <React3.Fragment>
                         <motion3.h3
                           style={{
                             '--font-selector':
@@ -1615,7 +1669,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                             {'Results'}
                           </motion3.span>
                         </motion3.h3>
-                      </React3.Fragment>
+                      </React3.Fragment> */}
                     </RichText2>
                   </motion3.div>
                 </motion3.div>

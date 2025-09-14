@@ -2443,19 +2443,43 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                             ),
                             fonts: ['GF;Plus Jakarta Sans-700'],
                           },
+                          HF9v6KNXc: {
+                            children: (
+                              <React2.Fragment>
+                                <motion2.h2
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '68px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.02em',
+                                    '--framer-line-height': '110%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-1of0zx5, var(--token-8131141a-ffe7-4934-93a9-c74e05c4423c, rgb(255, 255, 255)))',
+                                  }}
+                                >
+                                  {'Unlock the Power of'}
+                                </motion2.h2>
+                              </React2.Fragment>
+                            ),
+                            fonts: ['GF;Plus Jakarta Sans-700'],
+                          },
                         },
                         baseVariant,
                         gestureVariant
                       )}
                     >
-                      <React2.Fragment>
+                      {/* <React2.Fragment>
                         <motion2.h2
                           className={'framer-styles-preset-pt7sxf'}
                           data-styles-preset={'HMrv0hKFq'}
                         >
                           {'Unlock the Power of'}
                         </motion2.h2>
-                      </React2.Fragment>
+                      </React2.Fragment> */}
                     </RichText2>
                     <motion2.div
                       className={'framer-e0e7ng'}
@@ -2534,19 +2558,43 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                               ),
                               fonts: ['GF;Plus Jakarta Sans-700'],
                             },
+                            HF9v6KNXc: {
+                              children: (
+                                <React2.Fragment>
+                                  <motion2.h2
+                                    style={{
+                                      '--font-selector':
+                                        'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                      '--framer-font-family':
+                                        '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                      '--framer-font-size': '68px',
+                                      '--framer-font-weight': '700',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '110%',
+                                      '--framer-text-alignment': 'center',
+                                      '--framer-text-color':
+                                        'var(--extracted-1of0zx5, var(--token-8131141a-ffe7-4934-93a9-c74e05c4423c, rgb(255, 255, 255)))',
+                                    }}
+                                  >
+                                    {'Apptics '}
+                                  </motion2.h2>
+                                </React2.Fragment>
+                              ),
+                              fonts: ['GF;Plus Jakarta Sans-700'],
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React2.Fragment>
+                        {/* <React2.Fragment>
                           <motion2.h2
                             className={'framer-styles-preset-pt7sxf'}
                             data-styles-preset={'HMrv0hKFq'}
                           >
                             {'Apptics '}
                           </motion2.h2>
-                        </React2.Fragment>
+                        </React2.Fragment> */}
                       </RichText2>
                       <motion2.div
                         className={'framer-hdgatl'}
@@ -2737,19 +2785,43 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                               ),
                               fonts: ['GF;Plus Jakarta Sans-700'],
                             },
+                            HF9v6KNXc: {
+                              children: (
+                                <React2.Fragment>
+                                  <motion2.h2
+                                    style={{
+                                      '--font-selector':
+                                        'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                      '--framer-font-family':
+                                        '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                      '--framer-font-size': '68px',
+                                      '--framer-font-weight': '700',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '110%',
+                                      '--framer-text-alignment': 'center',
+                                      '--framer-text-color':
+                                        'var(--extracted-1of0zx5, var(--token-8131141a-ffe7-4934-93a9-c74e05c4423c, rgb(255, 255, 255)))',
+                                    }}
+                                  >
+                                    {'Subscriptions'}
+                                  </motion2.h2>
+                                </React2.Fragment>
+                              ),
+                              fonts: ['GF;Plus Jakarta Sans-700'],
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React2.Fragment>
+                        {/* <React2.Fragment>
                           <motion2.h2
                             className={'framer-styles-preset-pt7sxf'}
                             data-styles-preset={'HMrv0hKFq'}
                           >
                             {'Subscriptions'}
                           </motion2.h2>
-                        </React2.Fragment>
+                        </React2.Fragment> */}
                       </RichText2>
                     </motion2.div>
                   </motion2.div>

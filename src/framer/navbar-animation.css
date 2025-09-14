@@ -1,142 +1,153 @@
-/* Navbar animation styles - with fixed background transition */
-.framer-v-kqq5rm,
-.framer-v-58ewxk {
-  transition: all 200ms ease-in-out !important;
-  border-radius: 0px;
-  /* Default state - no shadow */
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
-  /* Smooth background transition */
-  background-color: rgb(240, 240, 240) !important;
-  backface-visibility: hidden; /* Helps with smoother transitions */
-  transform: translateZ(0); /* Force GPU acceleration */
-}
+@media screen and (min-width: 768px) {
+  /* Navbar animation styles - with fixed background transition */
+  .framer-v-kqq5rm,
+  .framer-v-58ewxk {
+    transition: all 200ms ease-in-out !important;
+    border-radius: 0px;
+    /* Default state - no shadow */
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+    /* Smooth background transition */
+    background-color: rgb(240, 240, 240) !important;
+    backface-visibility: hidden; /* Helps with smoother transitions */
+    transform: translateZ(0); /* Force GPU acceleration */
+  }
 
-.framer-v-kqq5rm {
-  border-radius: 16px !important;
-  /* Scrolled state */
-  background-color: rgb(255, 255, 255) !important;
-  transition: all 200ms ease-in-out !important;
-}
+  .framer-v-kqq5rm {
+    border-radius: 16px !important;
+    /* Scrolled state */
+    background-color: rgb(255, 255, 255) !important;
+    transition: all 200ms ease-in-out !important;
+  }
 
-/* Make sure background color transition is smooth */
-.framer-v-kqq5rm.framer-58ewxk,
-.framer-v-58ewxk {
-  transition: all 200ms ease-in-out !important;
-}
+  /* Make sure background color transition is smooth */
+  .framer-v-kqq5rm.framer-58ewxk,
+  .framer-v-58ewxk {
+    transition: all 200ms ease-in-out !important;
+  }
 
-/* Fix for specific menu button transitions */
-.framer-v-2ourd5, /* sgljWVnIE variant */
-.framer-v-1hy6547 { /* zhDgBjQ4Q variant */
-  transition: all 200ms ease-in-out !important;
-  background-color: transparent !important; /* Prevent background conflict */
-}
+  /* Fix for specific menu button transitions */
+  .framer-v-2ourd5, /* sgljWVnIE variant */
+.framer-v-1hy6547 {
+    /* zhDgBjQ4Q variant */
+    transition: all 200ms ease-in-out !important;
+    background-color: transparent !important; /* Prevent background conflict */
+  }
 
-/* Ensure button text color and size transitions smoothly */
-.framer-luyxbx {
-  transition: color 200ms ease-in-out, font-size 200ms ease-in-out !important;
-  background: transparent !important;
-}
+  /* Ensure button text color and size transitions smoothly */
+  .framer-luyxbx {
+    transition:
+      color 200ms ease-in-out,
+      font-size 200ms ease-in-out !important;
+    background: transparent !important;
+  }
 
-/* Text size transitions for Desktop vs Scrolled state */
-.framer-v-58ewxk .framer-luyxbx p {
-  font-size: 18px !important;
-  transition: font-size 200ms ease-in-out !important;
-}
+  /* Text size transitions for Desktop vs Scrolled state */
+  .framer-v-58ewxk .framer-luyxbx p {
+    font-size: 18px !important;
+    transition: font-size 200ms ease-in-out !important;
+  }
 
-.framer-v-kqq5rm .framer-luyxbx p {
-  font-size: 16px !important;
-  transition: font-size 200ms ease-in-out !important;
-}
+  .framer-v-kqq5rm .framer-luyxbx p {
+    font-size: 16px !important;
+    transition: font-size 200ms ease-in-out !important;
+  }
 
-/* Add smoothness to menu buttons - sync with navbar transition speed */
-.framer-17qktv6-container,
-.framer-k4soi5-container,
-.framer-e4yhg7-container,
-.framer-z6q6lh-container,
-.framer-53yftj-container {
-  transition: all 200ms ease-in-out !important;
-  background-color: transparent !important;
-}
+  /* Add smoothness to menu buttons - sync with navbar transition speed */
+  .framer-17qktv6-container,
+  .framer-k4soi5-container,
+  .framer-e4yhg7-container,
+  .framer-z6q6lh-container,
+  .framer-53yftj-container {
+    transition: all 200ms ease-in-out !important;
+    background-color: transparent !important;
+  }
 
-/* Additional styling for child elements to ensure all transitions are in sync */
-.framer-za4vue,
-.framer-2nteq4,
-.framer-1ly1z6c,
-.framer-egiarz,
-.framer-1x2v3f8 {
-  transition: all 200ms ease-in-out !important;
-}
+  /* Additional styling for child elements to ensure all transitions are in sync */
+  .framer-za4vue,
+  .framer-2nteq4,
+  .framer-1ly1z6c,
+  .framer-egiarz,
+  .framer-1x2v3f8 {
+    transition: all 200ms ease-in-out !important;
+  }
 
-/* Force transitions on hover states too */
-.framer-rndEh.framer-v-zk2xu7.hover,
-.framer-rndEh.framer-v-zk2xu7.pressed,
-.framer-rndEh.framer-v-1ly1z6c.hover,
-.framer-rndEh.framer-v-1ly1z6c.pressed {
-  transition: all 200ms ease-in-out !important;
-}
+  /* Force transitions on hover states too */
+  .framer-rndEh.framer-v-zk2xu7.hover,
+  .framer-rndEh.framer-v-zk2xu7.pressed,
+  .framer-rndEh.framer-v-1ly1z6c.hover,
+  .framer-rndEh.framer-v-1ly1z6c.pressed {
+    transition: all 200ms ease-in-out !important;
+  }
 
-/* Specific transition for the navbar container and its shadow */
-.framer-fwzssm,
-.framer-58ewxk {
-  transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1) !important;
-}
+  /* Specific transition for the navbar container and its shadow */
+  .framer-fwzssm,
+  .framer-58ewxk {
+    transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+  }
 
-/* Enhanced shadow and container transitions */
-.framer-v-kqq5rm .framer-fwzssm {
-  transition: all 200ms ease-in-out !important;
-  background: inherit !important;
-}
+  /* Enhanced shadow and container transitions */
+  .framer-v-kqq5rm .framer-fwzssm {
+    transition: all 200ms ease-in-out !important;
+    background: inherit !important;
+  }
 
-/* Ensure initial state has no shadow and proper padding */
-.framer-v-58ewxk .framer-fwzssm {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
-  transition: all 200ms ease-in-out !important;
-}
+  /* Ensure initial state has no shadow and proper padding */
+  .framer-v-58ewxk .framer-fwzssm {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+    transition: all 200ms ease-in-out !important;
+  }
 
-/* Apply to specific elements for better compatibility */
-.framer-v-kqq5rm {
-  will-change: box-shadow, border-radius, background-color;
-}
+  /* Apply to specific elements for better compatibility */
+  .framer-v-kqq5rm {
+    will-change: box-shadow, border-radius, background-color;
+  }
 
-/* Make sure the entire navbar gets the transition */
-.framer-qRqux {
-  transition-property: all !important;
-  transition-duration: 200ms !important;
-  transition-timing-function: ease-in-out !important;
-  transform: translateZ(0); /* Force GPU acceleration */
-  backface-visibility: hidden;
-}
+  /* Make sure the entire navbar gets the transition */
+  .framer-qRqux {
+    transition-property: all !important;
+    transition-duration: 200ms !important;
+    transition-timing-function: ease-in-out !important;
+    transform: translateZ(0); /* Force GPU acceleration */
+    backface-visibility: hidden;
+  }
 
-/* Logo size transition */
-.framer-v-58ewxk .framer-1easea9,
-.framer-v-kqq5rm .framer-1easea9 {
-  transition: width 200ms ease-in-out, height 200ms ease-in-out !important;
-  background: transparent !important;
-}
+  /* Logo size transition */
+  .framer-v-58ewxk .framer-1easea9,
+  .framer-v-kqq5rm .framer-1easea9 {
+    transition:
+      width 200ms ease-in-out,
+      height 200ms ease-in-out !important;
+    background: transparent !important;
+  }
 
-/* Logo container transition */
-.framer-v-58ewxk .framer-hh2z3c {
-  height: 41px !important;
-  width: 129px !important;
-  transition: height 200ms ease-in-out, width 200ms ease-in-out !important;
-  /* background: transparent !important; */
-}
+  /* Logo container transition */
+  .framer-v-58ewxk .framer-hh2z3c {
+    height: 41px !important;
+    width: 129px !important;
+    transition:
+      height 200ms ease-in-out,
+      width 200ms ease-in-out !important;
+    /* background: transparent !important; */
+  }
 
-.framer-v-kqq5rm .framer-hh2z3c {
-  height: 36px !important;
-  width: 114px !important;
-  transition: height 200ms ease-in-out, width 200ms ease-in-out !important;
-  /* background: transparent !important; */
-}
+  .framer-v-kqq5rm .framer-hh2z3c {
+    height: 36px !important;
+    width: 114px !important;
+    transition:
+      height 200ms ease-in-out,
+      width 200ms ease-in-out !important;
+    /* background: transparent !important; */
+  }
 
-/* Button size transitions */
-.framer-v-58ewxk .framer-1ly1z6c {
-  padding: 12px 16px !important;
-  transition: padding 200ms ease-in-out !important;
-  /* background-color: transparent !important; */
-}
+  /* Button size transitions */
+  .framer-v-58ewxk .framer-1ly1z6c {
+    padding: 12px 16px !important;
+    transition: padding 200ms ease-in-out !important;
+    /* background-color: transparent !important; */
+  }
 
-.framer-v-kqq5rm .framer-1ly1z6c {
-  padding: 10px 14px !important;
-  transition: padding 200ms ease-in-out !important;
+  .framer-v-kqq5rm .framer-1ly1z6c {
+    padding: 10px 14px !important;
+    transition: padding 200ms ease-in-out !important;
+  }
 }

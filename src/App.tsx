@@ -103,7 +103,6 @@ export default function App() {
         <Hero />
       </div>
 
-      {/* Остальные компоненты загружаются только при скролле */}
       <LazyLoad
         placeholder={
           <div className="w-full h-32 bg-[#f0f0f0] animate-pulse"></div>

@@ -2629,12 +2629,35 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                             </React7.Fragment>
                           ),
                         },
+                        oNyYwbTfq: {
+                          children: (
+                            <React7.Fragment>
+                              <motion5.h3
+                                style={{
+                                  '--font-selector':
+                                    'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                  '--framer-font-family':
+                                    '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                  '--framer-font-size': '48px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.04em',
+                                  '--framer-line-height': '125%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                }}
+                              >
+                                {'Calculate How Apptics Can'}
+                              </motion5.h3>
+                            </React7.Fragment>
+                          ),
+                        },
                       },
                       baseVariant,
                       gestureVariant
                     )}
                   >
-                    <React7.Fragment>
+                    {/* <React7.Fragment>
                       <motion5.h3
                         style={{
                           '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
@@ -2651,7 +2674,7 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                       >
                         {'Calculate How Apptics Can'}
                       </motion5.h3>
-                    </React7.Fragment>
+                    </React7.Fragment> */}
                   </RichText3>
                   <motion5.div
                     className={'framer-10p6a55'}
@@ -2782,8 +2805,76 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                       }}
                       verticalAlignment={'top'}
                       withExternalLayout={true}
+                      {...addPropertyOverrides4(
+                        {
+                          oNyYwbTfq: {
+                            children: (
+                              <React7.Fragment>
+                                <motion5.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '48px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion5.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Your Business'}
+                                  </motion5.span>
+                                </motion5.h3>
+                              </React7.Fragment>
+                            ),
+                          },
+                          T4iRPW0XB: {
+                            children: (
+                              <React7.Fragment>
+                                <motion5.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '30px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion5.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Your Business'}
+                                  </motion5.span>
+                                </motion5.h3>
+                              </React7.Fragment>
+                            ),
+                          },
+                        },
+                        baseVariant,
+                        gestureVariant
+                      )}
                     >
-                      <React7.Fragment>
+                      {/* <React7.Fragment>
                         <motion5.h3
                           style={{
                             '--font-selector':
@@ -2809,7 +2900,7 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                             {'Your Business'}
                           </motion5.span>
                         </motion5.h3>
-                      </React7.Fragment>
+                      </React7.Fragment> */}
                     </RichText3>
                   </motion5.div>
                 </motion5.div>

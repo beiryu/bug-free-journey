@@ -23269,12 +23269,35 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                               </React8.Fragment>
                             ),
                           },
+                          ac22B5A_J: {
+                            children: (
+                              <React8.Fragment>
+                                <motion7.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '48px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  {'Built to help you'}
+                                </motion7.h3>
+                              </React8.Fragment>
+                            ),
+                          },
                         },
                         baseVariant,
                         gestureVariant
                       )}
                     >
-                      <React8.Fragment>
+                      {/* <React8.Fragment>
                         <motion7.h3
                           style={{
                             '--font-selector':
@@ -23292,7 +23315,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                         >
                           {'Built To Help You'}
                         </motion7.h3>
-                      </React8.Fragment>
+                      </React8.Fragment> */}
                     </RichText4>
                   </motion7.div>
                   <ComponentViewportProvider
@@ -23408,12 +23431,43 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                               </React8.Fragment>
                             ),
                           },
+                          ac22B5A_J: {
+                            children: (
+                              <React8.Fragment>
+                                <motion7.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '48px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion7.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Grow'}
+                                  </motion7.span>
+                                </motion7.h3>
+                              </React8.Fragment>
+                            ),
+                          },
                         },
                         baseVariant,
                         gestureVariant
                       )}
                     >
-                      <React8.Fragment>
+                      {/* <React8.Fragment>
                         <motion7.h3
                           style={{
                             '--font-selector':
@@ -23439,7 +23493,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                             {'Grow'}
                           </motion7.span>
                         </motion7.h3>
-                      </React8.Fragment>
+                      </React8.Fragment> */}
                     </RichText4>
                   </motion7.div>
                 </motion7.div>

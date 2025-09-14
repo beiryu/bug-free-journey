@@ -2770,12 +2770,35 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                             </React6.Fragment>
                           ),
                         },
+                        FLhjn6fWg: {
+                          children: (
+                            <React6.Fragment>
+                              <motion6.h3
+                                style={{
+                                  '--font-selector':
+                                    'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                  '--framer-font-family':
+                                    '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                  '--framer-font-size': '48px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.04em',
+                                  '--framer-line-height': '125%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                }}
+                              >
+                                {'Curated'}
+                              </motion6.h3>
+                            </React6.Fragment>
+                          ),
+                        },
                       },
                       baseVariant,
                       gestureVariant
                     )}
                   >
-                    <React6.Fragment>
+                    {/* <React6.Fragment>
                       <motion6.h3
                         style={{
                           '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
@@ -2792,7 +2815,7 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                       >
                         {'Curated'}
                       </motion6.h3>
-                    </React6.Fragment>
+                    </React6.Fragment> */}
                   </RichText4>
                   <ComponentViewportProvider
                     height={48}
@@ -2907,12 +2930,43 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                               </React6.Fragment>
                             ),
                           },
+                          FLhjn6fWg: {
+                            children: (
+                              <React6.Fragment>
+                                <motion6.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '48px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion6.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Questions'}
+                                  </motion6.span>
+                                </motion6.h3>
+                              </React6.Fragment>
+                            ),
+                          },
                         },
                         baseVariant,
                         gestureVariant
                       )}
                     >
-                      <React6.Fragment>
+                      {/* <React6.Fragment>
                         <motion6.h3
                           style={{
                             '--font-selector':
@@ -2938,7 +2992,7 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                             {'Questions'}
                           </motion6.span>
                         </motion6.h3>
-                      </React6.Fragment>
+                      </React6.Fragment> */}
                     </RichText4>
                   </motion6.div>
                 </motion6.div>
