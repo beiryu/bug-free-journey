@@ -1273,9 +1273,10 @@ var humanReadableVariantMap2 = {
   'Variant 8': 'mgFnNV_g8',
   'Variant 9': 'GLmS7x_uS',
 };
-var getProps2 = ({ height, id, width, ...props }) => {
+var getProps2 = ({ height, id, width, deviceVariant, ...props }) => {
   return {
     ...props,
+    deviceVariant: deviceVariant ?? props.deviceVariant ?? 'desktop',
     variant:
       humanReadableVariantMap2[props.variant] ?? props.variant ?? 'Sjey0przw',
   };
@@ -1296,6 +1297,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
     className: className4,
     layoutId,
     variant,
+    deviceVariant,
     ...restProps
   } = getProps2(props);
   const {
@@ -1330,8 +1332,12 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
         'jcjeVP1uE',
         'BWxeXFfQM',
       ].includes(baseVariant)
-    )
+    ) {
       return false;
+    }
+    if (deviceVariant === 'phone' || deviceVariant === 'tablet') {
+      return false;
+    }
     return true;
   };
   return (
@@ -2250,7 +2256,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
             <Image
               background={{
                 alt: '',
-                fit: 'fill',
+                fit: 'contain',
                 loading: getLoadingLazyAtYPosition(
                   (componentViewport?.y || 0) +
                     (0 +
@@ -2274,14 +2280,14 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   BWxeXFfQM: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) + 0 + 0
                       ),
                       pixelHeight: 761,
                       pixelWidth: 850,
                       positionX: 'center',
-                      positionY: 'top',
+                      positionY: 'center',
                       sizes: componentViewport?.width || '100vw',
                       src: 'https://framerusercontent.com/images/n3YK92vyfgo3H9hYjYabmvOm6r4.png',
                       srcSet:
@@ -2291,7 +2297,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   cxjbQK6LS: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2311,7 +2317,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   eLNnBHEBv: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2328,7 +2334,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   GLmS7x_uS: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) + 0 + 0
                       ),
@@ -2343,7 +2349,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   hGbWN63KG: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) + 0 + 0
                       ),
@@ -2358,7 +2364,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   HKNts7h7y: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2378,7 +2384,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   iOppqTRQs: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2398,14 +2404,14 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   jcjeVP1uE: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) + 0 + 0
                       ),
                       pixelHeight: 760,
                       pixelWidth: 850,
                       positionX: 'center',
-                      positionY: 'top',
+                      positionY: 'center',
                       sizes: componentViewport?.width || '100vw',
                       src: 'https://framerusercontent.com/images/wTC2U4WveBQ9zIeVSzoJWw92aGo.png',
                       srcSet:
@@ -2415,7 +2421,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   mgFnNV_g8: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2435,7 +2441,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   MHps1_FOh: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2455,7 +2461,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                   t1xBNzzRg: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition(
                         (componentViewport?.y || 0) +
                           (0 +
@@ -2486,20 +2492,25 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
 var css5 = [
   '@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }',
   '.framer-vZy50.framer-afdigq, .framer-vZy50 .framer-afdigq { display: block; }',
-  '.framer-vZy50.framer-15d2p9o { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 380px; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 850px; will-change: var(--framer-will-change-override, transform); }',
+  '.framer-vZy50.framer-15d2p9o { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 100%; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }',
   '.framer-vZy50 .framer-1y1a6mn { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 100%; justify-content: flex-end; overflow: hidden; padding: 24px 40px 24px 40px; position: relative; width: 1px; }',
   '.framer-vZy50 .framer-bb2fei { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 68px; justify-content: center; left: 40px; overflow: visible; padding: 8px 0px 8px 0px; position: absolute; top: 24px; width: min-content; z-index: 1; }',
   '.framer-vZy50 .framer-122fpi0, .framer-vZy50 .framer-lc4xra { flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
   '.framer-vZy50 .framer-1wlvhaf { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 6px 19px 6px 19px; position: relative; width: min-content; will-change: var(--framer-will-change-override, transform); }',
   '.framer-vZy50 .framer-b69dhv, .framer-vZy50 .framer-1hocgwv { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
-  '.framer-vZy50 .framer-vbijyw { flex: none; gap: 0px; height: 100%; overflow: hidden; position: relative; width: 50%; }',
-  '.framer-vZy50.framer-v-gqa1dh.framer-15d2p9o, .framer-vZy50.framer-v-o4bxbt.framer-15d2p9o, .framer-vZy50.framer-v-1fr016o.framer-15d2p9o { aspect-ratio: 2.236842105263158 / 1; height: var(--framer-aspect-ratio-supported, 380px); }',
-  '.framer-vZy50.framer-v-gqa1dh .framer-vbijyw { height: 380px; width: 425px; }',
-  '.framer-vZy50.framer-v-via1hx.framer-15d2p9o, .framer-vZy50.framer-v-r2y9rb.framer-15d2p9o, .framer-vZy50.framer-v-slda3w.framer-15d2p9o, .framer-vZy50.framer-v-xhny5m.framer-15d2p9o { aspect-ratio: 2.236842105263158 / 1; height: var(--framer-aspect-ratio-supported, 313px); width: 700px; }',
+  '.framer-vZy50 .framer-vbijyw { flex: none; gap: 0px; height: 100%; overflow: hidden; position: relative; width: 50%; min-height: 400px; }',
+  '.framer-vZy50.framer-v-gqa1dh.framer-15d2p9o, .framer-vZy50.framer-v-o4bxbt.framer-15d2p9o, .framer-vZy50.framer-v-1fr016o.framer-15d2p9o { height: 100%; width: 100%; }',
+  '.framer-vZy50.framer-v-gqa1dh .framer-vbijyw { height: 100%; width: 50%; }',
+  '.framer-vZy50.framer-v-via1hx.framer-15d2p9o, .framer-vZy50.framer-v-r2y9rb.framer-15d2p9o, .framer-vZy50.framer-v-slda3w.framer-15d2p9o, .framer-vZy50.framer-v-xhny5m.framer-15d2p9o { height: 100%; width: 100%; }',
   '.framer-vZy50.framer-v-via1hx .framer-1y1a6mn, .framer-vZy50.framer-v-r2y9rb .framer-1y1a6mn, .framer-vZy50.framer-v-slda3w .framer-1y1a6mn, .framer-vZy50.framer-v-xhny5m .framer-1y1a6mn { justify-content: center; }',
-  '.framer-vZy50.framer-v-4kw6jf.framer-15d2p9o, .framer-vZy50.framer-v-8nrsdy.framer-15d2p9o, .framer-vZy50.framer-v-1iwjl1x.framer-15d2p9o, .framer-vZy50.framer-v-1rfvvc3.framer-15d2p9o { flex-direction: column; height: min-content; width: 350px; }',
+  '.framer-vZy50.framer-v-4kw6jf.framer-15d2p9o, .framer-vZy50.framer-v-8nrsdy.framer-15d2p9o, .framer-vZy50.framer-v-1iwjl1x.framer-15d2p9o, .framer-vZy50.framer-v-1rfvvc3.framer-15d2p9o { flex-direction: column; height: 100%; width: 100%; }',
   '.framer-vZy50.framer-v-4kw6jf .framer-1y1a6mn, .framer-vZy50.framer-v-8nrsdy .framer-1y1a6mn, .framer-vZy50.framer-v-1iwjl1x .framer-1y1a6mn, .framer-vZy50.framer-v-1rfvvc3 .framer-1y1a6mn { flex: none; gap: 8px; height: min-content; justify-content: center; order: 1; padding: 20px; width: 100%; }',
-  '.framer-vZy50.framer-v-4kw6jf .framer-vbijyw, .framer-vZy50.framer-v-8nrsdy .framer-vbijyw, .framer-vZy50.framer-v-1iwjl1x .framer-vbijyw, .framer-vZy50.framer-v-1rfvvc3 .framer-vbijyw { aspect-ratio: 1.25 / 1; height: var(--framer-aspect-ratio-supported, 160px); order: 0; width: 100%; }',
+  '.framer-vZy50.framer-v-4kw6jf .framer-vbijyw, .framer-vZy50.framer-v-8nrsdy .framer-vbijyw, .framer-vZy50.framer-v-1iwjl1x .framer-vbijyw, .framer-vZy50.framer-v-1rfvvc3 .framer-vbijyw { height: auto; order: 0; width: 100%; }',
+  '@media (max-width: 1200px) and (min-width: 0px) { .framer-vZy50 .framer-1y1a6mn { justify-content: center } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-vZy50.framer-15d2p9o { flex-direction: column-reverse; height: 100%; width: 100%; } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-vZy50 .framer-1y1a6mn { overflow: visible; width: 100%; } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-vZy50 .framer-vbijyw { width: 100%; } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-vZy50.framer-v-gqa1dh .framer-vbijyw { width: 100%; } }',
   ...css3,
   ...css4,
   '.framer-vZy50[data-border="true"]::after, .framer-vZy50 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
@@ -2508,8 +2519,8 @@ var FramerhxCncky0K = withCSS2(Component2, css5, 'framer-vZy50');
 var stdin_default2 = FramerhxCncky0K;
 FramerhxCncky0K.displayName = 'Card/Onboarding Card';
 FramerhxCncky0K.defaultProps = {
-  height: 380,
-  width: 850,
+  height: '100%',
+  width: '100%',
 };
 addPropertyControls2(FramerhxCncky0K, {
   variant: {
@@ -2949,7 +2960,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
             <Image2
               background={{
                 alt: '',
-                fit: 'fill',
+                fit: 'contain',
                 loading: getLoadingLazyAtYPosition2(
                   (componentViewport?.y || 0) + 0
                 ),
@@ -2965,7 +2976,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   daCQK5fji: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -2977,7 +2988,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   hOUtX9xr0: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -2989,7 +3000,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   N9QVHDFmy: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3001,7 +3012,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   t4PEh0Z8J: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3013,7 +3024,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   ulcbQ78Ez: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3025,7 +3036,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   vaDZRJbaZ: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3037,7 +3048,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   xJT_aBf0c: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3049,7 +3060,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   YClqRjH6F: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3061,7 +3072,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                   ZBzXtUQqt: {
                     background: {
                       alt: '',
-                      fit: 'fill',
+                      fit: 'contain',
                       loading: getLoadingLazyAtYPosition2(
                         (componentViewport?.y || 0) + 0
                       ),
@@ -3213,11 +3224,13 @@ var getProps4 = ({
   scrollSection4,
   scrollSection5,
   scrollSection6,
+  deviceVariant,
   width,
   ...props
 }) => {
   return {
     ...props,
+    deviceVariant: deviceVariant ?? props.deviceVariant ?? 'desktop',
     ns8ERlh6D: scrollSection4 ?? props.ns8ERlh6D,
     Ow3cn3ns7: scrollSection2 ?? props.Ow3cn3ns7,
     qul8Yzdjo: scrollSection6 ?? props.qul8Yzdjo,
@@ -3242,6 +3255,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
     className: className4,
     layoutId,
     variant,
+    deviceVariant,
     rSnwVia6R,
     Ow3cn3ns7,
     ZR0PiFvKA,
@@ -3357,7 +3371,12 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                         '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
                         '--framer-font-family':
                           '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
-                        '--framer-font-size': '48px',
+                        '--framer-font-size':
+                          deviceVariant === 'phone'
+                            ? '30px'
+                            : deviceVariant === 'tablet'
+                              ? '40px'
+                              : '48px',
                         '--framer-font-weight': '700',
                         '--framer-letter-spacing': '-0.04em',
                         '--framer-line-height': '125%',
@@ -3397,7 +3416,12 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                           '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
                           '--framer-font-family':
                             '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
-                          '--framer-font-size': '48px',
+                          '--framer-font-size':
+                            deviceVariant === 'phone'
+                              ? '30px'
+                              : deviceVariant === 'tablet'
+                                ? '40px'
+                                : '48px',
                           '--framer-font-weight': '700',
                           '--framer-letter-spacing': '-0.04em',
                           '--framer-line-height': '125%',
@@ -3427,6 +3451,8 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                       scopeId={'ntj4ldJBo'}
                       style={{
                         rotate: -1,
+                        height: deviceVariant === 'phone' ? '40px' : '48px',
+                        width: deviceVariant === 'phone' ? '40px' : '48px',
                       }}
                     >
                       {_jsx4(stdin_default3, {
@@ -3465,7 +3491,12 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                           '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
                           '--framer-font-family':
                             '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
-                          '--framer-font-size': '48px',
+                          '--framer-font-size':
+                            deviceVariant === 'phone'
+                              ? '30px'
+                              : deviceVariant === 'tablet'
+                                ? '40px'
+                                : '48px',
                           '--framer-font-weight': '700',
                           '--framer-letter-spacing': '-0.04em',
                           '--framer-line-height': '125%',
@@ -3508,7 +3539,12 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                 <React4.Fragment>
                   <motion4.p
                     style={{
-                      '--framer-font-size': '18px',
+                      '--framer-font-size':
+                        deviceVariant === 'phone'
+                          ? '15px'
+                          : deviceVariant === 'tablet'
+                            ? '16px'
+                            : '18px',
                       '--framer-letter-spacing': '-0.01em',
                       '--framer-line-height': '150%',
                       '--framer-text-alignment': 'center',
@@ -3615,6 +3651,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                     },
                     variant: 'Sjey0przw',
                     width: '100%',
+                    deviceVariant: deviceVariant,
                   })}
                 </SmartComponentScopedContainerWithFX>
               </ComponentViewportProvider>
@@ -3691,6 +3728,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                     },
                     variant: 'eLNnBHEBv',
                     width: '100%',
+                    deviceVariant: deviceVariant,
                   })}
                 </SmartComponentScopedContainerWithFX>
               </ComponentViewportProvider>
@@ -3753,6 +3791,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                     },
                     variant: 'cxjbQK6LS',
                     width: '100%',
+                    deviceVariant: deviceVariant,
                   })}
                 </SmartComponentScopedContainerWithFX>
               </ComponentViewportProvider>
@@ -3780,6 +3819,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                     },
                     variant: 'MHps1_FOh',
                     width: '100%',
+                    deviceVariant: deviceVariant,
                   })}
                 </SmartComponentScopedContainer>
               </ComponentViewportProvider>
@@ -3806,6 +3846,10 @@ var css7 = [
   '.framer-0QoZQ .framer-1v4lxuj-container { aspect-ratio: 2.236842105263158 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 380px); position: sticky; top: 180px; width: 100%; z-index: 1; }',
   '.framer-0QoZQ .framer-17xvbjj-container { aspect-ratio: 2.236842105263158 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 380px); position: sticky; top: 200px; width: 100%; z-index: 1; }',
   '.framer-0QoZQ .framer-pi6176-container { aspect-ratio: 2.236842105263158 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 380px); position: sticky; top: 220px; width: 100%; z-index: 1; }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-0QoZQ .framer-1nskuzc-container { aspect-ratio: 1 / 1 } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-0QoZQ .framer-17xvbjj-container { aspect-ratio: 1 / 1 } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-0QoZQ .framer-pi6176-container { aspect-ratio: 1 / 1 } }',
+  '@media (max-width: 809px) and (min-width: 0px) { .framer-0QoZQ .framer-1v4lxuj-container { aspect-ratio: 1 / 1 } }',
 ];
 var Framerntj4ldJBo = withCSS4(Component4, css7, 'framer-0QoZQ');
 var stdin_default4 = Framerntj4ldJBo;
@@ -4108,6 +4152,12 @@ var Component5 = /* @__PURE__ */ React5.forwardRef(function (props, ref) {
                       width: '100%',
                     },
                     width: '100%',
+                    deviceVariant:
+                      baseVariant === 'yIRfJ0G5U'
+                        ? 'phone'
+                        : baseVariant === 'VmG2N1JqO'
+                          ? 'tablet'
+                          : 'desktop',
                   })}
                 </SmartComponentScopedContainer2>
               </ComponentViewportProvider2>
@@ -4121,18 +4171,18 @@ var Component5 = /* @__PURE__ */ React5.forwardRef(function (props, ref) {
 var css8 = [
   '@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }',
   '.framer-65m1T.framer-1ype4s3, .framer-65m1T .framer-1ype4s3 { display: block; }',
-  '.framer-65m1T.framer-6dtc3r { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }',
-  '.framer-65m1T .framer-zvj0ax { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }',
-  '.framer-65m1T .framer-18pcgk1-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }',
-  '.framer-65m1T.framer-v-la6fuk.framer-6dtc3r { width: 810px; }',
-  '.framer-65m1T.framer-v-7ob5co.framer-6dtc3r { width: 390px; }',
+  '.framer-65m1T.framer-6dtc3r { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: auto; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100vw; }',
+  '.framer-65m1T .framer-zvj0ax { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 100%; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }',
+  '.framer-65m1T .framer-18pcgk1-container { flex: 1 0 0px; height: 100%; position: relative; width: 100%; }',
+  '.framer-65m1T.framer-v-la6fuk.framer-6dtc3r { width: 100vw; }',
+  '.framer-65m1T.framer-v-7ob5co.framer-6dtc3r { width: 100vw; }',
 ];
 var FramerXugr6tYnk = withCSS5(Component5, css8, 'framer-65m1T');
 var stdin_default5 = FramerXugr6tYnk;
 FramerXugr6tYnk.displayName = 'Onboarding';
 FramerXugr6tYnk.defaultProps = {
-  height: 2086,
-  width: 1200,
+  height: 'auto',
+  width: '100vw',
 };
 addPropertyControls5(FramerXugr6tYnk, {
   variant: {

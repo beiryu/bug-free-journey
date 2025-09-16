@@ -1040,12 +1040,33 @@ var Component = /* @__PURE__ */ React.forwardRef(function (props, ref) {
                           </React.Fragment>
                         ),
                       },
+                      JF0iH9bC5: {
+                        children: (
+                          <React.Fragment>
+                            <motion.p
+                              style={{
+                                '--font-selector':
+                                  'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNTAw',
+                                '--framer-font-family':
+                                  '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                '--framer-font-size': '24px',
+                                '--framer-font-weight': '500',
+                                '--framer-letter-spacing': '-0.03em',
+                                '--framer-text-color':
+                                  'var(--extracted-r6o4lv, var(--token-8131141a-ffe7-4934-93a9-c74e05c4423c, rgb(255, 255, 255)))',
+                              }}
+                            >
+                              {'Book a Call'}
+                            </motion.p>
+                          </React.Fragment>
+                        ),
+                      },
                     },
                     baseVariant,
                     gestureVariant
                   )}
                 >
-                  <React.Fragment>
+                  {/* <React.Fragment>
                     <motion.p
                       style={{
                         '--font-selector': 'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNTAw',
@@ -1060,7 +1081,7 @@ var Component = /* @__PURE__ */ React.forwardRef(function (props, ref) {
                     >
                       {'Book a Call'}
                     </motion.p>
-                  </React.Fragment>
+                  </React.Fragment> */}
                 </RichText>
               </motion.div>
             </motion.a>

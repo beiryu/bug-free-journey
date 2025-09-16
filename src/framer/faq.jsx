@@ -3182,6 +3182,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3247,6 +3251,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3312,6 +3320,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3378,6 +3390,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3443,6 +3459,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3508,6 +3528,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3574,6 +3598,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3640,6 +3668,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3706,6 +3738,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3771,6 +3807,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3836,6 +3876,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
@@ -3902,6 +3946,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           {
                             jxTkZYjlb: {
                               variant: 'HZrRZPt83',
+                              style: {
+                                height: 'auto',
+                                width: '100%',
+                              },
                             },
                           },
                           baseVariant,
