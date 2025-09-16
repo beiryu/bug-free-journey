@@ -1725,12 +1725,54 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, rgb(36, 36, 36))',
+                                      '--framer-text-transform': 'capitalize',
+                                    }}
+                                  >
+                                    {'Features'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, rgb(36, 36, 36))',
+                                      '--framer-text-transform': 'capitalize',
+                                    }}
+                                  >
+                                    {'Features'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--font-selector': 'SW50ZXItTWVkaXVt',
@@ -1746,7 +1788,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Features'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -3210,12 +3252,54 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, rgb(36, 36, 36))',
+                                      '--framer-text-transform': 'capitalize',
+                                    }}
+                                  >
+                                    {'Others'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, rgb(36, 36, 36))',
+                                      '--framer-text-transform': 'capitalize',
+                                    }}
+                                  >
+                                    {'Others'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--font-selector': 'SW50ZXItTWVkaXVt',
@@ -3231,7 +3315,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Others'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div

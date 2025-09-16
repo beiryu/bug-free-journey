@@ -23695,8 +23695,77 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                         }}
                         verticalAlignment={'top'}
                         withExternalLayout={true}
+                        {...addPropertyOverrides5(
+                          {
+                            Rs2SKuwmP: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '16px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Build Monthly Recurring Revenue'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            XVJLXuS1n: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Build Monthly Recurring Revenue'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            ac22B5A_J: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Build Monthly Recurring Revenue'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                          },
+                          baseVariant,
+                          gestureVariant
+                        )}
                       >
-                        <React8.Fragment>
+                        {/* <React8.Fragment>
                           <motion7.p
                             style={{
                               '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
@@ -23712,7 +23781,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                           >
                             {'Build Monthly Recurring Revenue'}
                           </motion7.p>
-                        </React8.Fragment>
+                        </React8.Fragment> */}
                       </RichText4>
                       <RichText4
                         __fromCanvasComponent={true}
@@ -23864,8 +23933,77 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                         }}
                         verticalAlignment={'top'}
                         withExternalLayout={true}
+                        {...addPropertyOverrides5(
+                          {
+                            Rs2SKuwmP: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '16px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'2X Your Average Order Value'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            XVJLXuS1n: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'2X Your Average Order Value'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            ac22B5A_J: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'2X Your Average Order Value'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                          },
+                          baseVariant,
+                          gestureVariant
+                        )}
                       >
-                        <React8.Fragment>
+                        {/* <React8.Fragment>
                           <motion7.p
                             style={{
                               '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
@@ -23881,7 +24019,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                           >
                             {'2X Your Average Order Value'}
                           </motion7.p>
-                        </React8.Fragment>
+                        </React8.Fragment> */}
                       </RichText4>
                       <RichText4
                         __fromCanvasComponent={true}
@@ -24209,8 +24347,77 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                         }}
                         verticalAlignment={'top'}
                         withExternalLayout={true}
+                        {...addPropertyOverrides5(
+                          {
+                            Rs2SKuwmP: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '16px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Less Busywork, More Growth'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            XVJLXuS1n: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Less Busywork, More Growth'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            ac22B5A_J: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Less Busywork, More Growth'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                          },
+                          baseVariant,
+                          gestureVariant
+                        )}
                       >
-                        <React8.Fragment>
+                        {/* <React8.Fragment>
                           <motion7.p
                             style={{
                               '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
@@ -24226,7 +24433,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                           >
                             {'Less Busywork, More Growth'}
                           </motion7.p>
-                        </React8.Fragment>
+                        </React8.Fragment> */}
                       </RichText4>
                       <RichText4
                         __fromCanvasComponent={true}
@@ -24387,8 +24594,77 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                         }}
                         verticalAlignment={'top'}
                         withExternalLayout={true}
+                        {...addPropertyOverrides5(
+                          {
+                            Rs2SKuwmP: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '16px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fast Setup, No Headaches'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            XVJLXuS1n: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fast Setup, No Headaches'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            ac22B5A_J: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fast Setup, No Headaches'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                          },
+                          baseVariant,
+                          gestureVariant
+                        )}
                       >
-                        <React8.Fragment>
+                        {/* <React8.Fragment>
                           <motion7.p
                             style={{
                               '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
@@ -24404,7 +24680,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                           >
                             {'Fast Setup, No Headaches'}
                           </motion7.p>
-                        </React8.Fragment>
+                        </React8.Fragment> */}
                       </RichText4>
                       <RichText4
                         __fromCanvasComponent={true}
@@ -24530,8 +24806,77 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                         }}
                         verticalAlignment={'top'}
                         withExternalLayout={true}
+                        {...addPropertyOverrides5(
+                          {
+                            Rs2SKuwmP: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '16px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fewer Failed Payments'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            XVJLXuS1n: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fewer Failed Payments'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                            ac22B5A_J: {
+                              children: (
+                                <React8.Fragment>
+                                  <motion7.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '18px',
+                                      '--framer-font-weight': '600',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fewer Failed Payments'}
+                                  </motion7.p>
+                                </React8.Fragment>
+                              ),
+                            },
+                          },
+                          baseVariant,
+                          gestureVariant
+                        )}
                       >
-                        <React8.Fragment>
+                        {/* <React8.Fragment>
                           <motion7.p
                             style={{
                               '--font-selector': 'SW50ZXItU2VtaUJvbGQ=',
@@ -24547,7 +24892,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                           >
                             {'Fewer Failed Payments'}
                           </motion7.p>
-                        </React8.Fragment>
+                        </React8.Fragment> */}
                       </RichText4>
                       <RichText4
                         __fromCanvasComponent={true}
