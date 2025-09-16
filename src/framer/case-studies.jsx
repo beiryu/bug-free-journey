@@ -1438,6 +1438,29 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                             </React3.Fragment>
                           ),
                         },
+                        Un2yo6ujM: {
+                          children: (
+                            <React3.Fragment>
+                              <motion3.h3
+                                style={{
+                                  '--font-selector':
+                                    'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                  '--framer-font-family':
+                                    '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                  '--framer-font-size': '40px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.04em',
+                                  '--framer-line-height': '125%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                }}
+                              >
+                                {'See The Real'}
+                              </motion3.h3>
+                            </React3.Fragment>
+                          ),
+                        },
                         ayRhSyGEU: {
                           children: (
                             <React3.Fragment>
@@ -1586,6 +1609,37 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                     '--framer-font-family':
                                       '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
                                     '--framer-font-size': '30px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion3.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Results'}
+                                  </motion3.span>
+                                </motion3.h3>
+                              </React3.Fragment>
+                            ),
+                          },
+                          Un2yo6ujM: {
+                            children: (
+                              <React3.Fragment>
+                                <motion3.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '40px',
                                     '--framer-font-weight': '700',
                                     '--framer-letter-spacing': '-0.04em',
                                     '--framer-line-height': '125%',
@@ -2026,12 +2080,35 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            ayRhSyGEU: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '20px',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {
+                                      '\u{1F4C8} "The Apptics checkout boosted our revenue beyond expectations."'
+                                    }
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--font-selector': 'SW50ZXItTWVkaXVt',
@@ -2049,7 +2126,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                               '\u{1F4C8} "The Apptics checkout boosted our revenue beyond expectations."'
                             }
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                   </motion3.div>
@@ -2366,12 +2443,35 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            ayRhSyGEU: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '20px',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {
+                                      '\u{1F4B5} "We\u2019re making way more money thanks to the Apptics team"'
+                                    }
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--font-selector': 'SW50ZXItTWVkaXVt',
@@ -2389,7 +2489,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                               '\u{1F4B5} "We\u2019re making way more money thanks to the Apptics team"'
                             }
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                   </motion3.div>
@@ -2706,12 +2806,35 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            ayRhSyGEU: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--font-selector': 'SW50ZXItTWVkaXVt',
+                                      '--framer-font-family':
+                                        '"Inter", "Inter Placeholder", sans-serif',
+                                      '--framer-font-size': '20px',
+                                      '--framer-font-weight': '500',
+                                      '--framer-letter-spacing': '-0.02em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {
+                                      '\u26A1"Apptics keeps everything streamlined, optimized, and results-driven."'
+                                    }
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--font-selector': 'SW50ZXItTWVkaXVt',
@@ -2729,7 +2852,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                               '\u26A1"Apptics keeps everything streamlined, optimized, and results-driven."'
                             }
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                   </motion3.div>

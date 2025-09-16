@@ -3638,7 +3638,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                   'data-framer-name': 'Desktop',
                 },
                 VR0zLkBrC: {
-                  'data-framer-name': 'Tablet',
+                  'data-framer-name': 'Tablet-1',
                 },
               },
               baseVariant,
@@ -4430,9 +4430,15 @@ var Component5 = /* @__PURE__ */ React5.forwardRef(function (props, ref) {
               {
                 oLUYdZzxp: {
                   'data-framer-name': 'Phone',
+                  style: {
+                    height: 669,
+                  },
                 },
                 zQ98CoqfI: {
                   'data-framer-name': 'Tablet',
+                  style: {
+                    height: 1600,
+                  },
                 },
               },
               baseVariant,

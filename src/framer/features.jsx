@@ -6608,6 +6608,29 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                               </React6.Fragment>
                             ),
                           },
+                          geYuS6Szv: {
+                            children: (
+                              <React6.Fragment>
+                                <motion6.h2
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '40px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '130%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-1of0zx5, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  {'Transform Your eCom Store Into a '}
+                                </motion6.h2>
+                              </React6.Fragment>
+                            ),
+                          },
                           vvQOP35O8: {
                             children: (
                               <React6.Fragment>
@@ -6680,8 +6703,60 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           }}
                           verticalAlignment={'top'}
                           withExternalLayout={true}
+                          {...addPropertyOverrides6(
+                            {
+                              geYuS6Szv: {
+                                children: (
+                                  <React6.Fragment>
+                                    <motion6.h3
+                                      style={{
+                                        '--font-selector':
+                                          'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                        '--framer-font-family':
+                                          '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                        '--framer-font-size': '40px',
+                                        '--framer-font-weight': '700',
+                                        '--framer-letter-spacing': '-0.04em',
+                                        '--framer-line-height': '125%',
+                                        '--framer-text-alignment': 'center',
+                                        '--framer-text-color':
+                                          'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                      }}
+                                    >
+                                      {'Subscription'}
+                                    </motion6.h3>
+                                  </React6.Fragment>
+                                ),
+                              },
+                              vvQOP35O8: {
+                                children: (
+                                  <React6.Fragment>
+                                    <motion6.h3
+                                      style={{
+                                        '--font-selector':
+                                          'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                        '--framer-font-family':
+                                          '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                        '--framer-font-size': '48px',
+                                        '--framer-font-weight': '700',
+                                        '--framer-letter-spacing': '-0.04em',
+                                        '--framer-line-height': '125%',
+                                        '--framer-text-alignment': 'center',
+                                        '--framer-text-color':
+                                          'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                      }}
+                                    >
+                                      {'Subscription'}
+                                    </motion6.h3>
+                                  </React6.Fragment>
+                                ),
+                              },
+                            },
+                            baseVariant,
+                            gestureVariant
+                          )}
                         >
-                          <React6.Fragment>
+                          {/* <React6.Fragment>
                             <motion6.h3
                               style={{
                                 '--font-selector':
@@ -6699,7 +6774,7 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                             >
                               {'Subscription'}
                             </motion6.h3>
-                          </React6.Fragment>
+                          </React6.Fragment> */}
                         </RichText5>
                       </motion6.div>
                     )}
@@ -6804,6 +6879,37 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                                       '--framer-font-family':
                                         '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
                                       '--framer-font-size': '48px',
+                                      '--framer-font-weight': '700',
+                                      '--framer-letter-spacing': '-0.04em',
+                                      '--framer-line-height': '125%',
+                                      '--framer-text-alignment': 'center',
+                                      '--framer-text-color':
+                                        'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                    }}
+                                  >
+                                    <motion6.span
+                                      data-text-fill={'true'}
+                                      style={{
+                                        backgroundImage:
+                                          'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                      }}
+                                    >
+                                      {'Powerhouse'}
+                                    </motion6.span>
+                                  </motion6.h3>
+                                </React6.Fragment>
+                              ),
+                            },
+                            geYuS6Szv: {
+                              children: (
+                                <React6.Fragment>
+                                  <motion6.h3
+                                    style={{
+                                      '--font-selector':
+                                        'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                      '--framer-font-family':
+                                        '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                      '--framer-font-size': '40px',
                                       '--framer-font-weight': '700',
                                       '--framer-letter-spacing': '-0.04em',
                                       '--framer-line-height': '125%',

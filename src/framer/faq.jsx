@@ -2770,6 +2770,29 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                             </React6.Fragment>
                           ),
                         },
+                        eum5JDQCc: {
+                          children: (
+                            <React6.Fragment>
+                              <motion6.h3
+                                style={{
+                                  '--font-selector':
+                                    'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                  '--framer-font-family':
+                                    '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                  '--framer-font-size': '40px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.04em',
+                                  '--framer-line-height': '125%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                }}
+                              >
+                                {'Curated'}
+                              </motion6.h3>
+                            </React6.Fragment>
+                          ),
+                        },
                         FLhjn6fWg: {
                           children: (
                             <React6.Fragment>
@@ -2909,6 +2932,37 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                                     '--framer-font-family':
                                       '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
                                     '--framer-font-size': '30px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion6.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Questions'}
+                                  </motion6.span>
+                                </motion6.h3>
+                              </React6.Fragment>
+                            ),
+                          },
+                          eum5JDQCc: {
+                            children: (
+                              <React6.Fragment>
+                                <motion6.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '40px',
                                     '--framer-font-weight': '700',
                                     '--framer-letter-spacing': '-0.04em',
                                     '--framer-line-height': '125%',

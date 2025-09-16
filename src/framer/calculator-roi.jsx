@@ -2629,6 +2629,29 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                             </React7.Fragment>
                           ),
                         },
+                        SLfJaJRfz: {
+                          children: (
+                            <React7.Fragment>
+                              <motion5.h3
+                                style={{
+                                  '--font-selector':
+                                    'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                  '--framer-font-family':
+                                    '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                  '--framer-font-size': '40px',
+                                  '--framer-font-weight': '700',
+                                  '--framer-letter-spacing': '-0.04em',
+                                  '--framer-line-height': '135%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                }}
+                              >
+                                {'Calculate how Apptics Can'}
+                              </motion5.h3>
+                            </React7.Fragment>
+                          ),
+                        },
                         oNyYwbTfq: {
                           children: (
                             <React7.Fragment>
@@ -2697,8 +2720,60 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                         }}
                         verticalAlignment={'top'}
                         withExternalLayout={true}
+                        {...addPropertyOverrides4(
+                          {
+                            SLfJaJRfz: {
+                              children: (
+                                <React7.Fragment>
+                                  <motion5.h3
+                                    style={{
+                                      '--font-selector':
+                                        'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                      '--framer-font-family':
+                                        '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                      '--framer-font-size': '40px',
+                                      '--framer-font-weight': '700',
+                                      '--framer-letter-spacing': '-0.04em',
+                                      '--framer-line-height': '125%',
+                                      '--framer-text-alignment': 'center',
+                                      '--framer-text-color':
+                                        'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                    }}
+                                  >
+                                    {'Transform'}
+                                  </motion5.h3>
+                                </React7.Fragment>
+                              ),
+                            },
+                            oNyYwbTfq: {
+                              children: (
+                                <React7.Fragment>
+                                  <motion5.h3
+                                    style={{
+                                      '--font-selector':
+                                        'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                      '--framer-font-family':
+                                        '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                      '--framer-font-size': '48px',
+                                      '--framer-font-weight': '700',
+                                      '--framer-letter-spacing': '-0.04em',
+                                      '--framer-line-height': '125%',
+                                      '--framer-text-alignment': 'center',
+                                      '--framer-text-color':
+                                        'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                    }}
+                                  >
+                                    {'Transform'}
+                                  </motion5.h3>
+                                </React7.Fragment>
+                              ),
+                            },
+                          },
+                          baseVariant,
+                          gestureVariant
+                        )}
                       >
-                        <React7.Fragment>
+                        {/* <React7.Fragment>
                           <motion5.h3
                             style={{
                               '--font-selector':
@@ -2716,7 +2791,7 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                           >
                             {'Transform'}
                           </motion5.h3>
-                        </React7.Fragment>
+                        </React7.Fragment> */}
                       </RichText3>
                     )}
                     <ComponentViewportProvider
@@ -2817,6 +2892,37 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                                     '--framer-font-family':
                                       '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
                                     '--framer-font-size': '48px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  <motion5.span
+                                    data-text-fill={'true'}
+                                    style={{
+                                      backgroundImage:
+                                        'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                    }}
+                                  >
+                                    {'Your Business'}
+                                  </motion5.span>
+                                </motion5.h3>
+                              </React7.Fragment>
+                            ),
+                          },
+                          SLfJaJRfz: {
+                            children: (
+                              <React7.Fragment>
+                                <motion5.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '40px',
                                     '--framer-font-weight': '700',
                                     '--framer-letter-spacing': '-0.04em',
                                     '--framer-line-height': '125%',
@@ -3281,12 +3387,51 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                             </React7.Fragment>
                           ),
                         },
+                        SLfJaJRfz: {
+                          children: (
+                            <React7.Fragment>
+                              <motion5.p
+                                style={{
+                                  '--framer-font-size': '14px',
+                                  '--framer-letter-spacing': '-0.02em',
+                                  '--framer-line-height': '140%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-r6o4lv, rgba(105, 105, 105, 0.9))',
+                                }}
+                              >
+                                {
+                                  'Passive Subscriber Income\xA0comes from long-term subscribers who are unlikely to cancel, providing stable income without additional advertising. This calculator provides estimates based on real client results. It does not constitute an income claim or financial guarantee.'
+                                }
+                              </motion5.p>
+                            </React7.Fragment>
+                          ),
+                        },
+                        oNyYwbTfq: {
+                          children: (
+                            <React7.Fragment>
+                              <motion5.p
+                                style={{
+                                  '--framer-letter-spacing': '-0.01em',
+                                  '--framer-line-height': '150%',
+                                  '--framer-text-alignment': 'center',
+                                  '--framer-text-color':
+                                    'var(--extracted-r6o4lv, var(--token-94158dc5-efda-4690-8a29-fea011c5c81e, rgb(125, 126, 128)))',
+                                }}
+                              >
+                                {
+                                  'Passive Subscriber Income\xA0comes from long-term subscribers who are unlikely to cancel, providing stable income without additional advertising. This calculator provides estimates based on real client results. It does not constitute an income claim or financial guarantee.'
+                                }
+                              </motion5.p>
+                            </React7.Fragment>
+                          ),
+                        },
                       },
                       baseVariant,
                       gestureVariant
                     )}
                   >
-                    <React7.Fragment>
+                    {/* <React7.Fragment>
                       <motion5.p
                         style={{
                           '--framer-letter-spacing': '-0.01em',
@@ -3300,7 +3445,7 @@ var Component5 = /* @__PURE__ */ React7.forwardRef(function (props, ref) {
                           'Passive Subscriber Income\xA0comes from long-term subscribers who are unlikely to cancel, providing stable income without additional advertising. This calculator provides estimates based on real client results. It does not constitute an income claim or financial guarantee.'
                         }
                       </motion5.p>
-                    </React7.Fragment>
+                    </React7.Fragment> */}
                   </RichText3>
                 </motion5.div>
               </motion5.div>

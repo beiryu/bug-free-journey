@@ -1327,6 +1327,29 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                               </React3.Fragment>
                             ),
                           },
+                          IiNQh3sp7: {
+                            children: (
+                              <React3.Fragment>
+                                <motion3.h3
+                                  style={{
+                                    '--font-selector':
+                                      'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                    '--framer-font-family':
+                                      '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                    '--framer-font-size': '40px',
+                                    '--framer-font-weight': '700',
+                                    '--framer-letter-spacing': '-0.04em',
+                                    '--framer-line-height': '125%',
+                                    '--framer-text-alignment': 'center',
+                                    '--framer-text-color':
+                                      'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                  }}
+                                >
+                                  {'Why\xA0 Apptics Beats'}
+                                </motion3.h3>
+                              </React3.Fragment>
+                            ),
+                          },
                           elrY012ii: {
                             children: (
                               <React3.Fragment>
@@ -1468,6 +1491,37 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                       '--framer-font-family':
                                         '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
                                       '--framer-font-size': '30px',
+                                      '--framer-font-weight': '700',
+                                      '--framer-letter-spacing': '-0.04em',
+                                      '--framer-line-height': '125%',
+                                      '--framer-text-alignment': 'center',
+                                      '--framer-text-color':
+                                        'var(--extracted-a0htzi, rgb(36, 36, 36))',
+                                    }}
+                                  >
+                                    <motion3.span
+                                      data-text-fill={'true'}
+                                      style={{
+                                        backgroundImage:
+                                          'linear-gradient(90deg, rgb(17, 178, 248) 0%, rgb(80, 77, 249) 100%)',
+                                      }}
+                                    >
+                                      {'Every Competitor'}
+                                    </motion3.span>
+                                  </motion3.h3>
+                                </React3.Fragment>
+                              ),
+                            },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.h3
+                                    style={{
+                                      '--font-selector':
+                                        'R0Y7UGx1cyBKYWthcnRhIFNhbnMtNzAw',
+                                      '--framer-font-family':
+                                        '"Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif',
+                                      '--framer-font-size': '40px',
                                       '--framer-font-weight': '700',
                                       '--framer-letter-spacing': '-0.04em',
                                       '--framer-line-height': '125%',
@@ -1766,12 +1820,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Customizable Checkout'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Customizable Checkout'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -1783,7 +1871,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Customizable Checkout'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -1857,12 +1945,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Auto Generate VIP Portals'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Auto Generate VIP Portals'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -1874,7 +1996,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Auto Generate VIP Portals'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -1948,12 +2070,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Chargeback Mitigation'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Chargeback Mitigation'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -1965,7 +2121,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Chargeback Mitigation'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2039,12 +2195,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'MID Management & Routing'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'MID Management & Routing'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2056,7 +2246,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'MID Management & Routing'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2130,12 +2320,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Multi-Currency Support'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Multi-Currency Support'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2147,7 +2371,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Multi-Currency Support'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2221,12 +2445,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Smart Salvage AI'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Smart Salvage AI'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2238,7 +2496,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Smart Salvage AI'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2312,12 +2570,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fraud Prevention'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Fraud Prevention'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2329,7 +2621,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Fraud Prevention'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2403,12 +2695,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'24/7 Dedicated Support'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'24/7 Dedicated Support'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2420,7 +2746,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'24/7 Dedicated Support'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2494,12 +2820,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Start Selling Within 24h'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Start Selling Within 24h'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2511,7 +2871,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Start Selling Within 24h'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2585,12 +2945,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Unmatched Approval Rates'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Unmatched Approval Rates'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2602,7 +2996,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Unmatched Approval Rates'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                     <motion3.div
@@ -2681,12 +3075,46 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                                 </React3.Fragment>
                               ),
                             },
+                            IiNQh3sp7: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Engineered For Scale'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
+                            elrY012ii: {
+                              children: (
+                                <React3.Fragment>
+                                  <motion3.p
+                                    style={{
+                                      '--framer-letter-spacing': '-0.01em',
+                                      '--framer-line-height': '150%',
+                                      '--framer-text-alignment': 'left',
+                                      '--framer-text-color':
+                                        'var(--extracted-r6o4lv, var(--token-ad43a539-e7dd-4526-9939-6d192077376e, rgb(36, 36, 36)))',
+                                    }}
+                                  >
+                                    {'Engineered For Scale'}
+                                  </motion3.p>
+                                </React3.Fragment>
+                              ),
+                            },
                           },
                           baseVariant,
                           gestureVariant
                         )}
                       >
-                        <React3.Fragment>
+                        {/* <React3.Fragment>
                           <motion3.p
                             style={{
                               '--framer-letter-spacing': '-0.01em',
@@ -2698,7 +3126,7 @@ var Component3 = /* @__PURE__ */ React3.forwardRef(function (props, ref) {
                           >
                             {'Engineered For Scale'}
                           </motion3.p>
-                        </React3.Fragment>
+                        </React3.Fragment> */}
                       </RichText2>
                     </motion3.div>
                   </motion3.div>
