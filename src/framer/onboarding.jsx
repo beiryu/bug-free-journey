@@ -2084,7 +2084,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                 __fromCanvasComponent={true}
                 className={'framer-1hocgwv'}
                 data-framer-name={
-                  'Connect payment systems, set up compliance, & sync your store. We manage the full technical setup & guide you through approvals if you\u2019re not processing payments'
+                  'Easily connect your payments and sync your store. Apptics get you approved and selling faster.'
                 }
                 fonts={['Inter']}
                 layoutDependency={layoutDependency}
@@ -2230,7 +2230,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                             data-styles-preset={'pwS_W0qLQ'}
                           >
                             {
-                              "Connect payment systems, set up compliance, & sync your store. We manage the full technical setup & guide you through approvals if you're not processing payments."
+                              'Easily connect your payments and sync your store. Apptics get you approved and selling faster.'
                             }
                           </motion2.p>
                         </React2.Fragment>
@@ -2247,7 +2247,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref) {
                     data-styles-preset={'pwS_W0qLQ'}
                   >
                     {
-                      'Connect payment systems, set up compliance, & sync your store. We manage the full technical setup & guide you through approvals if you\u2019re not processing payments.'
+                      'Easily connect your payments and sync your store. Apptics get you approved and selling faster.'
                     }
                   </motion2.p>
                 </React2.Fragment> */}
@@ -3553,7 +3553,7 @@ var Component4 = /* @__PURE__ */ React4.forwardRef(function (props, ref) {
                     }}
                   >
                     {
-                      'Skip the guesswork. Your personal Apptics account manager gets you live fast and hassle free.'
+                      'Get up and running quickly with a guide, hassle free setup.'
                     }
                   </motion4.p>
                 </React4.Fragment>
