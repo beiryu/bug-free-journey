@@ -7128,8 +7128,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           },
                           oS0Hwz06G: {
                             __framer__animateOnce: false,
+                            __framer__obscuredVariantId: 'uZ9q4QQgA',
                             __framer__threshold: 1,
                             __framer__variantAppearEffectEnabled: true,
+                            __framer__visibleVariantId: 'TByT91Vuh',
                           },
                         },
                         baseVariant,
@@ -7223,8 +7225,10 @@ var Component6 = /* @__PURE__ */ React6.forwardRef(function (props, ref) {
                           },
                           oS0Hwz06G: {
                             __framer__animateOnce: false,
+                            __framer__obscuredVariantId: 'WauCV_zII',
                             __framer__threshold: 1,
                             __framer__variantAppearEffectEnabled: true,
+                            __framer__visibleVariantId: 'xPuuhzSH0',
                           },
                         },
                         baseVariant,

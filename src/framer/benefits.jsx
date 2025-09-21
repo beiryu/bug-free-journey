@@ -24775,9 +24775,7 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                             progress={0}
                             speed={1}
                             srcType={'URL'}
-                            srcUrl={
-                              'https://lottie.host/1103173e-37ef-4cec-92d1-771a29492958/M6hTJUa4Ai.json'
-                            }
+                            srcUrl={'/lotties/benefits.json'}
                             style={{
                               height: '100%',
                               width: '100%',
