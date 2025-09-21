@@ -19,7 +19,10 @@
 ## Текущие метаданные
 
 ```html
-<meta name="description" content="Turn One-Time Shopify Customers Into Recurring Revenue Goldmines. Apptics is an all in one platform that handles subscription management, payment optimization, and customer retention with smart analytics and seamless checkouts." />
+<meta
+  name="description"
+  content="Turn One-Time Shopify Customers Into Recurring Revenue Goldmines. Apptics is an all in one platform that handles subscription management, payment optimization, and customer retention with smart analytics and seamless checkouts."
+/>
 <meta name="application-name" content="Apptics - All-in-One CRM Tool" />
 ```
 
@@ -27,11 +30,17 @@
 
 ```html
 <meta property="og:title" content="Apptics - All-in-One CRM Tool" />
-<meta property="og:description" content="Turn One-Time Shopify Customers Into Recurring Revenue Goldmines. Apptics is an all in one platform that handles subscription management, payment optimization, and customer retention with smart analytics and seamless checkouts." />
+<meta
+  property="og:description"
+  content="Turn One-Time Shopify Customers Into Recurring Revenue Goldmines. Apptics is an all in one platform that handles subscription management, payment optimization, and customer retention with smart analytics and seamless checkouts."
+/>
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://apptics-ai-calculator-main.vercel.app" />
+<meta property="og:url" content="https://bug-free-journey-three.vercel.app" />
 <meta property="og:site_name" content="Apptics - All-in-One CRM Tool" />
-<meta property="og:image" content="https://apptics-ai-calculator-main.vercel.app/og.webp" />
+<meta
+  property="og:image"
+  content="https://bug-free-journey-three.vercel.app/og.webp"
+/>
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Apptics - All-in-One CRM Tool" />
