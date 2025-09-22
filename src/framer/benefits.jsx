@@ -24762,20 +24762,23 @@ var Component6 = /* @__PURE__ */ React8.forwardRef(function (props, ref) {
                           rendersWithMotion={true}
                           scopeId={'hiVUYZcSa'}
                         >
-                          <Lottie
+                          <LottiePlayer
+                            canvasPlaying={false}
+                            direction={'normal'}
+                            fillType={'cover'}
                             height={'100%'}
-                            id={'HxW_TkByy'}
-                            isForwardsDirection={true}
-                            layoutId={'HxW_TkByy'}
+                            id={'C2aEEmSKV'}
+                            layoutId={'C2aEEmSKV'}
                             loop={true}
-                            pauseOnCanvas={true}
+                            lottieFile={
+                              'https://framerusercontent.com/assets/Hp2BDjCYussa4BUPHeSlUXyPsYU.json'
+                            }
+                            lottieUrl={'/lotties/benefits.json'}
                             playing={true}
-                            poster={'Auto'}
-                            posterProgress={0}
+                            posterType={'auto'}
                             progress={0}
+                            sourceType={'url'}
                             speed={1}
-                            srcType={'URL'}
-                            srcUrl={'/lotties/benefits.json'}
                             style={{
                               height: '100%',
                               width: '100%',
